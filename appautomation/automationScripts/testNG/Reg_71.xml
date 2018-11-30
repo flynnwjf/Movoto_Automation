@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Main Suite" verbose="1" annotations="JDK">
+	
+    <listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	
+	<!-- <test name="Reg_71_HouseSectionFeature_MacSafari">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_71_HouseSectionFeature" />
+		</classes>
+	</test> -->
+	<!-- <test name="Reg_71_HouseSectionFeature_AndroidChrome">
+  		<classes>
+   			<class name="com.movoto.scripts.agent.Reg_71_HouseSectionFeature" />
+  		</classes>
+ 	</test>  -->
+ 	<!-- <test name="Reg_71_HouseSectionFeature_WindowsChrome">
+  		<classes>
+   			<class name="com.movoto.scripts.agent.Reg_71_HouseSectionFeature" />
+  		</classes>
+ 	</test> -->
+	<!-- <test name="Reg_71_HouseSectionFeature_WindowsIE">
+  		<classes>
+   			<class name="com.movoto.scripts.agent.Reg_71_HouseSectionFeature" />
+  		</classes>
+ 	</test> -->
+ 	<test name="Reg_71_HouseSectionFeature_IOSSafari">
+  		<classes>
+   			<class name="com.movoto.scripts.agent.Reg_71_HouseSectionFeature" />
+  		</classes>
+ 	</test>
+	
+</suite>

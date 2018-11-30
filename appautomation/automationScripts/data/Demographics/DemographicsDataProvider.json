@@ -1,0 +1,68 @@
+{
+"NewListingsSection":
+{
+"X-MData-Key":"CHUMAGATHUQ9VE7AYEBR",
+"CityName":"in 34953",
+"NewList":"New Listings",
+"AppUrl":"http://spider.san-mateo.movoto.net:3024/port-saint-lucie-fl/34953/demographics/",
+"Username":"harishlimba76@gmail.com",
+"Password":"harishlimba76",
+"LogoutUrl":"http://spider.san-mateo.movoto.net:3024/logout/",
+"ContentType":"application/json",
+"TestCaseUrl":"http://spider.san-mateo.movoto.net:3024/port-saint-lucie-fl/34953/demographics/"
+"NewListing_API":"http://soa8-qa.ng.movoto.net/property/listings/nearbysearch/cache",
+"Postdata":{"input":"34953 FL ","propertyTypes":[],"pageIndex":1,"maxCountPerPage":10,"isReducedPrice":0,"isOpenHousesOnly":0,"isNewListingsOnly":1,"isDistressed":0,"isFixerUpper":0,"hasPhoto":0,"hasPool":0,"minLat":0,"maxLat":0,"minLng":0,"maxLng":0,"searchPropertyStatus":"ACTIVE_AND_PENDING","schoolDistricts":null,"searchType":"ZIPCODE","mapView":false,"luxuryHomes":false,"iscache":true},
+}
+
+"gettoknow":
+{
+"X-MData-Key":"CHUMAGATHUQ9VE7AYEBR",
+"CityName":"Madison",
+"App-Url":"http://alpaca.san-mateo.movoto.net:3025/madison-wi/53794/demographics/",
+"Username":"harishlimba76@gmail.com",
+"Password":"harishlimba76",
+"ContentType":"application/json",
+"LogoutUrl":"http://alpaca.san-mateo.movoto.net:3025/logout/",
+"Gettoknow_API":"http://alpaca.san-mateo.movoto.net:3015/api/articles/",
+"Postdata":{"stateCode":"WI","cityId":40446,"sort":{"publishDate":-1},"limit":5,"page":1},
+"Gettoknow_API_DPP":"http://alpaca.san-mateo.movoto.net:3015/api/articles/",
+"Postdata_DPP":{"stateCode":"WI","cityId":40446,"sort":{"publishDate":-1},"limit":5,"page":1},
+"CityName_DPP":"Madison",
+}
+
+"openhousesection":
+{
+"UserAgent":"Apache-HttpClient/4.1.1",
+"X-MData-Key":"CHUMAGATHUQ9VE7AYEBR",
+"SchoolName":"James Wright Middle School",
+"CityName":"in 34953",
+"openHouse":"Open Houses",
+"Main-Url":"http://spider.san-mateo.movoto.net:3024/",
+"App-Url":"http://spider.san-mateo.movoto.net:3024/port-saint-lucie-fl/34953/demographics/",
+"Username":"kirankumaranin@gmail.com",
+"Password":"kirankumaranin1",
+"LogoutUrl":"http://spider.san-mateo.movoto.net:3024/logout/",
+"TestCaseUrl":"http://spider.san-mateo.movoto.net:3024/port-saint-lucie-fl/34953/demographics/"
+"AcceptEncoding":"application/gzip",
+"LoginDataPath":"data/Demographics",
+"ContentType":"application/json",
+"Host":"service.ng.movoto.net",
+"Connection":"Keep-Alive",
+"OpenHouse_API":"http://soa8-qa.ng.movoto.net/property/listings/nearbysearch/cache",
+"Postdata": {"input":"34953 FL ","propertyTypes":[],"pageIndex":1,"maxCountPerPage":20,"isReducedPrice":0,"isOpenHousesOnly":1,"isNewListingsOnly":0,"isDistressed":0,"isFixerUpper":0,"hasPhoto":0,"hasPool":0,"minLat":0,"maxLat":0,"minLng":0,"maxLng":0,"searchPropertyStatus":"ACTIVE_AND_PENDING","schoolDistricts":null,"searchType":"ZIPCODE","mapView":false,"luxuryHomes":false,"iscache":true},
+"NewListing_API":"http://soa8-qa.ng.movoto.net/property/listings/nearbysearch/cache",
+"PostdataNew": {"input":"34953 FL ","propertyTypes":[],"pageIndex":1,"maxCountPerPage":10,"isReducedPrice":0,"isOpenHousesOnly":0,"isNewListingsOnly":1,"isDistressed":0,"isFixerUpper":0,"hasPhoto":0,"hasPool":0,"minLat":0,"maxLat":0,"minLng":0,"maxLng":0,"searchPropertyStatus":"ACTIVE_AND_PENDING","schoolDistricts":null,"searchType":"ZIPCODE","mapView":false,"luxuryHomes":false,"iscache":true},
+}
+
+"verifySearchFunction":
+{
+"X-MData-Key":"CHUMAGATHUQ9VE7AYEBR",
+"urlString":"http://soa8-qa.ng.movoto.net/geoarea/find/postcodes?state=ny&city=New%20York&zipcode=",
+"CityName":"New York, NY, United States",
+"ZipCode":"10011",
+"cityNameUI":"New York",
+"zipURL":"http://spider.san-mateo.movoto.net:3024/new-york-ny/10011/demographics/"
+
+
+}
+}

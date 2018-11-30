@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+     <test name="AmnAct0001_Update_Urgency_For_Talked_Stage_Web">
+    <classes>
+      <class name="com.movoto.scripts.agent.UpdateUrgencyForTalkedStage"/>
+    </classes>
+  </test>    
+   
+   <test name="AmnAct0001_Update_Urgency_For_Talked_Stage_Android">
+    <classes>
+      <class name="com.movoto.scripts.agent.UpdateUrgencyForTalkedStage"/>
+    </classes>
+  </test>   
+  
+        <test name="AmnAct0001_Update_Urgency_For_Talked_Stage_IOS">
+    <classes>
+      <class name="com.movoto.scripts.agent.UpdateUrgencyForTalkedStage"/>
+    </classes>
+  </test>      
+    
+</suite> <!-- Suite -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+   <test name="AmnAct0002_Activity_Selection_List_For_MetStage_Web">
+    <classes>
+      <class name="com.movoto.scripts.agent.ActivitySelectionListForMetStage"/>
+    </classes>
+ </test> 
+   
+   <test name="AmnAct0002_Activity_Selection_List_For_MetStage_Android">
+    <classes>
+      <class name="com.movoto.scripts.agent.ActivitySelectionListForMetStage"/>
+    </classes>
+  </test>   
+  <test name="AmnAct0002_Activity_Selection_List_For_MetStage_IOS">
+    <classes>
+      <class name="com.movoto.scripts.agent.ActivitySelectionListForMetStage"/>
+    </classes> 
+  </test> 
+</suite> <!-- Suite -->

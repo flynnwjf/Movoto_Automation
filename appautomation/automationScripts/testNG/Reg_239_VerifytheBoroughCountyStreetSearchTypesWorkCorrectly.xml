@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	    
+	                  <!-- <test name="Reg_239_VerifytheBoroughCountyStreetSearchTypesWorkCorrectly_WindowsIE"> 
+		<parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json" 
+		/> <classes> <class name="com.movoto.scripts.agent.Reg_239_VerifytheBoroughCountyStreetSearchTypesWorkCorrectly" 
+		/> </classes> </test> -->                     
+		
+		                      <test name="Reg_239_VerifytheBoroughCountyStreetSearchTypesWorkCorrectly_WindowsChrome"> 
+		<parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json" 
+		/> <classes> <class name="com.movoto.scripts.agent.Reg_239_VerifytheBoroughCountyStreetSearchTypesWorkCorrectly" 
+		/> </classes> </test>          
+ 
+
+	             <!-- <test name="Reg_239_VerifytheBoroughCountyStreetSearchTypesWorkCorrectly_AndroidChrome"> 
+		<parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json" 
+		/> <classes> <class name="com.movoto.scripts.agent.Reg_239_VerifytheBoroughCountyStreetSearchTypesWorkCorrectly" 
+		/> </classes> </test>   -->      
+
+
+	   <test name="Reg_239_VerifytheBoroughCountyStreetSearchTypesWorkCorrectly_MACSafari"> 
+		<parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json" 
+		/> <classes> <class name="com.movoto.scripts.agent.Reg_239_VerifytheBoroughCountyStreetSearchTypesWorkCorrectly" 
+		/> </classes> </test> 
+		
+		<!--  <test name="Reg_239_VerifytheBoroughCountyStreetSearchTypesWorkCorrectly_IOSSafari"> 
+		
+		<parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json" 
+		/> <classes> <class name="com.movoto.scripts.agent.Reg_239_VerifytheBoroughCountyStreetSearchTypesWorkCorrectly" 
+		/> </classes> </test> --> 
+
+</suite> <!-- Suite -->

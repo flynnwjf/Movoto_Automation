@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MarketTrends_Regression" verbose="1" annotations="JDK"
+	suitThreadPoolSize="8">
+	<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	<suite-files>
+    	<!-- <suite-file path="Reg_209_VerifyGetToKnowSectionWorksWell.xml"></suite-file>-->
+    	<suite-file path="Reg_215_VerifyOpenHousesSectionWorksWell.xml"></suite-file> 
+    	<suite-file path="Reg_216_VerifyNewListingSectionWorksWellDisplays.xml"></suite-file>
+    	<suite-file path="Reg_221_VerifyMarketStatisticsDisplay.xml"></suite-file>
+    	<suite-file path="Reg_223_VerifyInfoOfZipcodeMarketTrendsPageCorrectlyDisplay.xml"></suite-file>
+    	<suite-file path="Reg_224_VerifyInfoOfNeighborhoodMarketTrendsCorrectlyDisplays.xml"></suite-file>
+    	<suite-file path="Reg_225_VerifySearchFunctionWorksWell.xml"></suite-file>
+    	<suite-file path="Reg_227_VerifyInfoOfCityMarketTrendsPageCorrectlyDisplays.xml"></suite-file>
+		</suite-files>
+</suite>

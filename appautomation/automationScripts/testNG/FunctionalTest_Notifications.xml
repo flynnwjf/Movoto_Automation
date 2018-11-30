@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Main Suite" verbose="1" annotations="JDK">
+<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+</listeners>
+<suite-files>
+<suite-file path="AgApp53485AmnNot0001FC0.25.xml"></suite-file>
+<suite-file path="AgApp53487AmnNot0002FC0.5.xml"></suite-file>
+<suite-file path="AgApp53488AmnNot0003FC1.xml"></suite-file>
+<suite-file path="AgApp53489AmnNot0004FC2.xml"></suite-file>
+<suite-file path="AgApp53490AmnNot0005FC3.xml"></suite-file>
+<suite-file path="AgApp53491AmnNot0006N1.xml"></suite-file>
+<suite-file path="AgApp53492AmnNot0007N2.xml"></suite-file>
+<suite-file path="AgApp53493AmnNot0008N3.xml"></suite-file>
+
+
+</suite-files>
+</suite>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="true">
+<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+
+ <!--   <test name="Reg_94_Verify_HotLead_Functionality_MACSafari">
+  <parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_94_HotLead_Functionality"/>
+    </classes>
+  </test> -->
+  
+   <!-- <test name="Reg_94_HotLead_Functionality_WindowsChrome">
+    <parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_94_HotLead_Functionality"/>
+    </classes>
+  </test>  -->
+ 
+  <test name="Reg_94_HotLead_Functionality_WindowsIE">
+  <parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_94_HotLead_Functionality"/>
+    </classes>
+  </test> 
+  
+    <!-- <test name="Reg_94_Verify_HotLead_Functionality_AndroidChrome">
+  <parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_94_HotLead_Functionality"/>
+    </classes>
+  </test> -->
+  
+  <!--  <test name="Reg_94_Verify_HotLead_Functionality_IOSSafari">
+   <parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+	<classes>								
+      <class name="com.movoto.scripts.agent.Reg_94_HotLead_Functionality"/>
+    </classes>
+ </test> -->
+  
+</suite> 
+ 

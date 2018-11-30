@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+
+
+	<!-- <test name="Reg_88_MarketStatisticsSection">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_88_MarketStatisticsSection" />
+		</classes>
+	</test>  -->
+	<test name="Reg_88_MarketStatisticsSection_And">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_88_MarketStatisticsSection" />
+		</classes>
+	</test> 
+  <!-- Test -->
+</suite> <!-- Suite -->

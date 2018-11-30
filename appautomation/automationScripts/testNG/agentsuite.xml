@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+<!-- 	<listeners>
+		<listener class-name="com.movoto.automation_scripts.CustomReporter" />
+	</listeners> -->
+	<test name="TC001_Agent_Android_Native">
+		<classes>
+			<class name="com.movoto.scripts.agent.AgentAppTest" />
+		</classes>
+	</test> 
+</suite>

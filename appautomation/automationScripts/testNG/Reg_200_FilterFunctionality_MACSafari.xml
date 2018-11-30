@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="true">
+<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	
+	  <!-- <test name="Reg_200_FilterFunctionality_AndroidChrome">
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_200_FilterFunctionality"/>
+    </classes>
+  </test>
+  
+  <test name="Reg_196_Add_Favourite_Functionality_AndroidChrome">
+  <parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_196_Add_Favourite_Functionality"/>
+    </classes>
+  </test>
+  
+  <test name="Reg_199_DifferentViews_AndroidChrome">
+<parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+  		<classes>
+   		<class name="com.movoto.scripts.agent.Reg_199_DifferentViews" />
+  		</classes>
+	</test>
+	
+	  <test name="Reg_201_FilterFunctionality_AndroidChrome">
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_201_FilterFunctionality"/>
+    </classes>
+  </test>
+	
+	 <test name="Reg_202_SortingFunctoinality_AndroidChrome">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_202_SortingFunctoinality" />
+		</classes>
+	</test>
+	
+	 <test name="Reg_94_Verify_HotLead_Functionality_AndroidChrome">
+  <parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_94_HotLead_Functionality"/>
+    </classes>
+  </test>
+   <test name="Reg_197_Save_Search_Functionality_AndroidChrome">
+     <parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_197_Save_Search_Functionality"/>
+    </classes>
+  </test> -->
+	 --> 
+	 <test name="Reg_200_FilterFunctionality_MACSafari">
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_200_FilterFunctionality"/>
+    </classes>
+  </test> 
+   
+   <!-- <test name="Reg_200_FilterFunctionality_WindowsChrome">
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_200_FilterFunctionality"/>
+    </classes> 
+    </test> -->
+    
+    <!-- <test name="Reg_201_FilterFunctionality_WindowsChrome">
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_201_FilterFunctionality"/>
+    </classes>
+  </test> -->
+  
+   <!--  <test name="Reg_200_FilterFunctionality_WindowsIE">
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_200_FilterFunctionality"/>
+    </classes>
+ </test> -->
+  
+  <test name="Reg_196_Add_Favourite_Functionality_MACSafari">
+ <parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_196_Add_Favourite_Functionality"/>
+    </classes>
+  </test> 
+  
+ <!--    <test name="Reg_200_FilterFunctionality_MACSafari">
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_200_FilterFunctionality"/>
+    </classes>
+  </test>
+  --> 
+   <test name="Reg_94_Verify_HotLead_Functionality_MACSafari">
+  <parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_94_HotLead_Functionality"/>
+    </classes>
+  </test>
+  
+ <!-- <test name="Reg_196_Add_Favourite_Functionality_WindowsChrome">
+  <parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_196_Add_Favourite_Functionality"/>
+    </classes>
+  </test> -->
+  
+   <!-- <test name="Reg_201_FilterFunctionality_WindowsChrome">
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_201_FilterFunctionality"/>
+    </classes>
+  </test> -->
+  
+  <!-- <test name="Reg_94_HotLead_Functionality_WindowsChrome">
+    <parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_94_HotLead_Functionality"/>
+    </classes>
+  </test> -->
+  
+     <test name="Reg_201_FilterFunctionality_MACSafari">
+    <classes>								
+      <class name="com.movoto.scripts.agent.Reg_201_FilterFunctionality"/>
+    </classes>
+  </test>
+	      
+     
+  
+</suite> <!-- Suite -->

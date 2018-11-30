@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <suite name="Main Suite" verbose="1" annotations="JDK">
+<suite-files>
+ <suite-file path="LeadCreationforEmailUpdateAPI.xml"></suite-file>
+<suite-file path="LeadCreationforEmailUpdate.xml"></suite-file> 
+ <suite-file path="UpdateEmailedforFollowUpStage_test_web.xml"></suite-file>
+ <suite-file path="UpdateTransactionForMadeAnOffer_Web.xml"></suite-file>
+ <suite-file path="ContractAccepted_test_web.xml"></suite-file>
+<suite-file path="UpdateTransactionForContractCancel_Web.xml"></suite-file> 
+<suite-file path="updateToReturnToMovoto_test_web.xml"></suite-file>   
+
+ <suite-file path="LeadCreationforEmailUpdateAPI.xml"></suite-file> 
+<suite-file path="LeadCreationforEmailUpdate.xml"></suite-file>   
+<suite-file path="UpdateEmailedforFollowUpStage_test.xml"></suite-file> 
+<suite-file path="UpdateTransactionForMadeAnOffer_Android.xml"></suite-file>
+<suite-file path="ContractAccepted_test_Android.xml"></suite-file>
+<suite-file path="UpdateTransactionForContractCancel_Android.xml"></suite-file>
+<suite-file path="updateToReturnToMovoto_test.xml"></suite-file>   
+
+<suite-file path="LeadCreationforEmailUpdateAPI.xml"></suite-file> 
+<suite-file path="LeadCreationforEmailUpdate.xml"></suite-file>
+<suite-file path="UpdateEmailedforFollowUpStage_test_IOS.xml"></suite-file> 
+<suite-file path="UpdateTransactionForMadeAnOffer_IOS.xml"></suite-file>
+<suite-file path="ContractAccepted_test_IOS.xml"></suite-file>
+<suite-file path="UpdateTransactionForContractCancel_IOS.xml"></suite-file>
+<suite-file path="updateToReturnToMovoto_test_IOS.xml"></suite-file>  
+</suite-files>
+</suite> 
+

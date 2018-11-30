@@ -1,0 +1,200 @@
+{
+	"openHouseSectionWorksWell": 
+	{
+		"UserAgent": "Apache-HttpClient/4.1.1",
+		"X-MData-Key": "CHUMAGATHUQ9VE7AYEBR",
+		"OpenHouseAPI": "http://soa8-qa.ng.movoto.net/property/listings/cityid/40446/sitemapopenhouse?pagenumber=1&pagesize=20&orderby=NEWEST_FIRST",
+		"NewListingAPI": "http://soa8-qa.ng.movoto.net/property/listings/cityid/40446/new?size=10",
+		"LoginUserName": "harishlimba76@gmail.com",
+		"LoginPasswd": "harishlimba76",
+		"MarketTrendUrl": "http://spider.san-mateo.movoto.net:3024/port-saint-lucie-fl/market-trends/"
+		"TestCaseUrl": "http://spider.san-mateo.movoto.net:3024/port-saint-lucie-fl/market-trends/"
+		
+	},
+
+	"searchData": 
+	{
+		"UserAgent": "Apache-HttpClient/4.1.1",
+		"X-MData-Key": "CHUMAGATHUQ9VE7AYEBR",
+		"SEARCH_HOMEPAGE.searchCity": "new york",
+		"SEARCH_HOMEPAGE.searchState": "ny",
+		"SEARCH_HOMEPAGE.searchZipCode": "10011",
+		"CityInfoUrl": "new-york",
+		"SEARCH_HOMEPAGE.searchFinancialDistrict": "financial district",
+		"SEARCH_HOMEPAGE.searchMarketTrendCity": "http://www.movoto.com/new-york-ny/market-trends/",
+		"SEARCH_HOMEPAGE.searchMarketTrendZipCode": "http://www.movoto.com/ny/10011/market-trends/",
+		"SEARCH_HOMEPAGE.searchMarketTrendNeighbourHood": "http://www.movoto.com/new-york-ny/financial-district/market-trends/",
+		"SearchMarketTrendStatePageUrl": "http://www.movoto.com/new-york-ny/financial-district/market-trends/",
+		"HomePageUrl:": "http://www.movoto.com",
+		"NeighbourHoodInfoUrl:": "financial-district"
+	},
+
+	"neighbourhoodInfo": 
+	{
+		"UserAgent": "Apache-HttpClient/4.1.1",
+		"X-MData-Key": "CHUMAGATHUQ9VE7AYEBR",
+		"MARKET_TREND_NEIGHBOURHOOD_PAGE.newListingNearByAPI": "http://soa8-qa.ng.movoto.net/property/listings/cityid/15195/new?size=10",
+		"MARKET_TREND_NEIGHBOURHOOD_PAGE.snapShotAPIdaily": "http://soa8-qa.ng.movoto.net/marketstatistics/neighborhoods/75558/daily-statistics",
+		"MARKET_TREND_NEIGHBOURHOOD_PAGE.demographicPopUp": "xpath->.//*[@id='body']/div[5]/div[2]/div/div/ul/",
+		"MARKET_TREND_NEIGHBOURHOOD_PAGE.cityAPI": "http://soa8-qa.ng.movoto.net/geoarea/find/postcodes?state=va&city=arlington&zipcode=",
+		"MARKET_TREND_NEIGHBOURHOOD_PAGE.articleAPI": "http://alpaca.san-mateo.movoto.net:3015/api/articles/",
+		"MARKET_TREND_NEIGHBOURHOOD_PAGE.demographicAPI": "http://soa8-qa.ng.movoto.net/geoarea/find/postcodes?state=va&city=arlington&zipcode=",
+		"MARKET_TREND_NEIGHBOURHOOD_PAGE.neighbourHood": "fairlington-shirlington",
+		"MARKET_TREND_NEIGHBOURHOOD_PAGE.shirlington": "shirlington",
+		"MARKET_TREND_NEIGHBOURHOOD_PAGE.city": "arlington",
+		"MARKET_TREND_NEIGHBOURHOOD_PAGE.state": "va",
+		"MARKET_TREND_NEIGHBOURHOOD_PAGE.zipcode": "",
+		"MARKET_TREND_NEIGHBOURHOOD_PAGE.homePageurl": "http://spider.san-mateo.movoto.net:3024/",
+		"MARKET_TREND_NEIGHBOURHOOD_PAGE.url": "http://spider.san-mateo.movoto.net:3024/arlington-va/fairlington-shirlington/market-trends/",
+		"MARKET_TREND_NEIGHBOURHOOD_PAGE.crumbsPath": "xpath->.//ul[@class='crumbs']",
+		"MARKET_TREND_NEIGHBOURHOOD_PAGE.getToKnowArticles": "xpath->.//div[@id='articlePanel']//ul",
+		"MARKET_TREND_NEIGHBOURHOOD_PAGE.postdata": 
+		{
+			"stateCode": "VA",
+			"cityId": 15195,
+			"sort": 
+			{
+				"publishDate": -1
+			},
+
+			"limit": 5,
+			"page": 1
+		},
+
+		"MARKET_TREND_NEIGHBOURHOOD_PAGE.contentType": "application/json"
+	},
+
+	"marketStatistics": 
+	{
+		"App-Url": "http://spider.san-mateo.movoto.net:3024/johnston-ri/market-trends/",
+		"CityNameCurrent": "Johnston",
+		"CityNameSelect": "Adamsville",
+		"chartDownloadURL": "http://export.highcharts.com/",
+		"CityIdCurrent": 1437,
+		"CityIdSelect": 1278,
+		"selectCount": 3,
+		"select_city": "Compare Nearby Cities",
+		"select_price": "Trend Metrics",
+		"select_period": "Time Period",
+		"X-MData-Key": "CHUMAGATHUQ9VE7AYEBR",
+		"FileDownLoadPath": "C:\\Users\\Govind.Kalria\\Downloads\\chart.png",
+		"FileDownLoadPathMac": "/Users/manasranjan/Downloads/chart.png",
+		"FacebookId": "Rama.Kiron@Indecomm.net",
+		"FaceBookPasswd": "India!123",
+		"CompareCityAPI": "http://soa8-qa.ng.movoto.net/marketstatistics/city-data/metric/medianlistprice/listingtype/all/1437/l6m?comparewithcityid=1278"
+	},
+
+	"getToKnowData": 
+	{
+		"X-MData-Key": "CHUMAGATHUQ9VE7AYEBR",
+		"CityName": "Madison",
+		"GetToKnow": "Get to Know",
+		"App-Url": "http://spider.san-mateo.movoto.net:3024/",
+		"URL": "http://spider.san-mateo.movoto.net:3024/madison-wi/market-trends/",
+		"Article_API": "http://alpaca.san-mateo.movoto.net:3015/api/articles/",
+		"Postdata": 
+		{
+			"stateCode": "WI",
+			"cityId": 40446,
+			"sort": 
+			{
+				"publishDate": -1
+			},
+
+			"limit": 5,
+			"page": 1
+		},
+
+		"ContentType": "application/json"
+	},
+
+	"NewListingsSection": 
+	{
+		"X-MData-Key": "CHUMAGATHUQ9VE7AYEBR",
+		"CityName": "in Port Saint Lucie",
+		"NewList": "New Listings",
+		"Username": "harishlimba76@gmail.com",
+		"Password": "harishlimba76",
+		"LogoutUrl": "http://spider.san-mateo.movoto.net:3024/logout/",
+		"AppUrl": "http://spider.san-mateo.movoto.net:3024/port-saint-lucie-fl/market-trends/",
+		"NewListing_API":"http://soa8-qa.ng.movoto.net/property/listings/nearbysearch/cache",
+		"Postdata":{"input":"34953 FL ","propertyTypes":[],"pageIndex":1,"maxCountPerPage":10,"isReducedPrice":0,"isOpenHousesOnly":0,"isNewListingsOnly":1,"isDistressed":0,"isFixerUpper":0,"hasPhoto":0,"hasPool":0,"minLat":0,"maxLat":0,"minLng":0,"maxLng":0,"searchPropertyStatus":"ACTIVE_AND_PENDING","schoolDistricts":null,"searchType":"ZIPCODE","mapView":false,"luxuryHomes":false,"iscache":true},
+		"ContentType": "application/json"
+		"TestCaseUrl":"http://spider.san-mateo.movoto.net:3024/port-saint-lucie-fl/market-trends/"
+	},
+	"openHousesSectionData": 
+ {
+  "UserAgent":"Apache-HttpClient/4.1.1",
+  "X-MData-Key":"CHUMAGATHUQ9VE7AYEBR",
+  "CityName":"in Port Saint Lucie",
+  "openHouse":"Open Houses",
+  "Main-Url":"http://spider.san-mateo.movoto.net:3024/",
+  "App-Url":"http://spider.san-mateo.movoto.net:3024/port-saint-lucie-fl/market-trends/",
+  "Username":"kirankumaranin@gmail.com",
+  "Password":"kirankumaranin1",
+  "LogoutUrl":"http://spider.san-mateo.movoto.net:3024/logout/",
+  "AcceptEncoding":"application/gzip",
+  "LoginDataPath":"data/Demographics",
+  "ContentType":"application/json",
+  "Host":"service.ng.movoto.net",
+  "Connection":"Keep-Alive",
+  "OpenHouse_API":"http://soa8-qa.ng.movoto.net/property/listings/nearbysearch/cache",
+  "Postdata":{"input":"Port Saint Lucie FL","propertyTypes":[],"pageIndex":1,"maxCountPerPage":20,"isReducedPrice":0,"isOpenHousesOnly":1,"isNewListingsOnly":0,"isDistressed":0,"isFixerUpper":0,"hasPhoto":0,"hasPool":0,"minLat":0,"maxLat":0,"minLng":0,"maxLng":0,"searchPropertyStatus":"ACTIVE_AND_PENDING","schoolDistricts":null,"searchType":"CITY","mapView":false,"luxuryHomes":false,"iscache":true},
+  "NewListing_API":"http://soa8-qa.ng.movoto.net/property/listings/nearbysearch/cache",
+  "PostdataNew":{"input":"Port Saint Lucie FL","propertyTypes":[],"pageIndex":1,"maxCountPerPage":10,"isReducedPrice":0,"isOpenHousesOnly":0,"isNewListingsOnly":1,"isDistressed":0,"isFixerUpper":0,"hasPhoto":0,"hasPool":0,"minLat":0,"maxLat":0,"minLng":0,"maxLng":0,"searchPropertyStatus":"ACTIVE_AND_PENDING","schoolDistricts":null,"searchType":"CITY","mapView":false,"luxuryHomes":false,"iscache":true}
+  "TestCaseUrl": "http://spider.san-mateo.movoto.net:3024/port-saint-lucie-fl/market-trends/"
+
+ },
+	"zipcodePageInfo": 
+	{
+		"X-MData-Key": "CHUMAGATHUQ9VE7AYEBR",
+		"MARKET_TREND_ZIP_CODE_PAGE.crumbsPath": "xpath->.//ul[@class='crumbs']",
+		"MARKET_TREND_ZIP_CODE_PAGE.today": "-",
+		"MARKET_TREND_ZIP_CODE_PAGE.zipcode": "02917",
+		"MARKET_TREND_ZIP_CODE_PAGE.city": "smithfield",
+		"MARKET_TREND_ZIP_CODE_PAGE.state": "ri",
+		"MARKET_TREND_ZIP_CODE_PAGE.demographicAPI": "http://soa8-qa.ng.movoto.net/geoarea/find/postcodes?state=ri&city=smithfield&zipcode=",
+		"MARKET_TREND_ZIP_CODE_PAGE.snapShotAPIdaily": "http://soa8-qa.ng.movoto.net/marketstatistics/zipcodes/02917/daily-statistics",
+		"MARKET_TREND_ZIP_CODE_PAGE.snapShotAPImonthly": "http://soa8-qa.ng.movoto.net/marketstatistics/zipcodes/02917/monthly-statistics",
+		"MARKET_TREND_ZIP_CODE_PAGE.crumbspath": "xpath->.//ul[@class='crumbs']",
+		"MARKET_TREND_ZIP_CODE_PAGE.homePageurl": "http://spider.san-mateo.movoto.net:3024/",
+		"MARKET_TREND_ZIP_CODE_PAGE.homePageurlState": "http://spider.san-mateo.movoto.net:3024/ri",
+		"MARKET_TREND_ZIP_CODE_PAGE.homePageurlStateCity": "http://spider.san-mateo.movoto.net:3024/ri/Johnston",
+		"MARKET_TREND_ZIP_CODE_PAGE.changeZipcodebtn": "http://spider.san-mateo.movoto.net:3024/market-trends/",
+		"MARKET_TREND_ZIP_CODE_PAGE.browsebyMarketArea": "http://spider.san-mateo.movoto.net:3024/ri/market-trends/",
+		"MARKET_TREND_ZIP_CODE_PAGE.homeSaleBtn": "http://spider.san-mateo.movoto.net:3024/ri/02919/",
+		"MARKET_TREND_ZIP_CODE_PAGE.url": "http://spider.san-mateo.movoto.net:3024/ri/02917/market-trends/"
+	},
+
+	"cityInfo": 
+	{
+		"X-MData-Key": "CHUMAGATHUQ9VE7AYEBR",
+		"MARKET_TREND_CITYPAGE.snapShotAPI": "http://soa8-qa.ng.movoto.net/marketstatistics/market-snapshot-data/1437",
+		"MARKET_TREND_CITYPAGE.demographicAPI": "http://soa8-qa.ng.movoto.net/geoarea/find/postcodes?state=ri&city=Johnston&zipcode=",
+		"MARKET_TREND_CITYPAGE.homePageurlState": "http://spider.san-mateo.movoto.net:3024/ri/",
+		"MARKET_TREND_CITYPAGE.homePageurl": "http://spider.san-mateo.movoto.net:3024/",
+		"MARKET_TREND_CITYPAGE.city": "johnston",
+		"MARKET_TREND_CITYPAGE.state": "ri",
+		"MARKET_TREND_CITYPAGE.zipcode": "",
+		"MARKET_TREND_CITYPAGE.url": "http://spider.san-mateo.movoto.net:3024/johnston-ri/market-trends/",
+		"MARKET_TREND_CITYPAGE.crumbsPath": "xpath->.//ul[@class='crumbs']",
+		"apiURL": 
+		[
+			{
+				"value": " http://soa8-qa.ng.movoto.net/marketstatistics/market-snapshot-data/1437"
+			},
+
+			{
+				"value": "http://soa8-qa.ng.movoto.net/geoarea/find/postcodes?state=ri&city=Johnston&zipcode="
+			},
+
+			{
+				"value": " http://soa8-qa.ng.movoto.net/marketstatistics/city-data/metric/medianlistprice/listingtype/all/1437/L6M?comparewithcityid=1297"
+			},
+
+			{
+				"value": "http://service.ng.movoto.net/property/listings/cityid/40446/new?size=10"
+			}
+		]
+	}
+}

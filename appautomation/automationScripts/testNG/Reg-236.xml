@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	
+    <listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	<!-- <test name="Reg_236_VerifythatContactAgent_MacSafari">
+	 <parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_236_VerifythatContactAgent" />
+		</classes>
+	</test> -->
+	  <!-- <test name="Reg_236_VerifythatContactAgent_AndroidChrome">
+	 <parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_236_VerifythatContactAgent" />
+		</classes>
+	</test>  -->
+		<test name="Reg_236_VerifythatContactAgent_IOSSafari">
+		 <parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_236_VerifythatContactAgent" />
+		</classes>
+	</test>
+	<!--  <test name="Reg_236_VerifythatContactAgent_WindowsChrome">
+	  <parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_236_VerifythatContactAgent" />
+		</classes>
+	</test>  -->
+	   <!-- <test name="Reg_236_VerifythatContactAgent_WindowsIE">
+	  <parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_236_VerifythatContactAgent" />
+		</classes>
+	</test>  -->
+	</suite>

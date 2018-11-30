@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+
+
+	<!-- <test name="Reg_209_VerifyGetToKnowSection_WindowsChrome">
+		<parameter name="dataProviderPath"
+			value="data/Demographics/DemographicsDataProvider.json" />
+		<classes>
+			<class
+				name="com.movoto.scripts.market.trends.Reg_209_VerifyGetToKnowSection" />
+		</classes>
+	</test> -->
+
+	<!-- <test name="Reg_209_VerifyGetToKnowSection_WindowsIE"> 
+	<parameter name="dataProviderPath"
+			value="data/Demographics/DemographicsDataProvider.json" />
+	<classes> <class 
+		name="com.movoto.scripts.market.trends.Reg_209_VerifyGetToKnowSection"/> 
+		</classes> </test> -->
+		
+<!-- 	<test name="Reg_209_VerifyGetToKnowSection_AndroidChrome"> 
+	<parameter name="dataProviderPath"
+			value="data/Demographics/DemographicsDataProvider.json" />
+	<classes> <class 
+		name="com.movoto.scripts.market.trends.Reg_209_VerifyGetToKnowSection"/> 
+		</classes> </test> -->  
+		
+	<!-- <test name="Reg_209_VerifyGetToKnowSection_MACSafari"> 
+	<parameter name="dataProviderPath"
+			value="data/Demographics/DemographicsDataProvider.json" />
+	<classes> <class 
+		name="com.movoto.scripts.market.trends.Reg_209_VerifyGetToKnowSection"/> 
+		</classes> </test> --> 
+	<test name="Reg_209_VerifyGetToKnowSection_IOSSafari"> 
+	<parameter name="dataProviderPath"
+			value="data/Demographics/DemographicsDataProvider.json" />
+	<classes> <class 
+		name="com.movoto.scripts.market.trends.Reg_209_VerifyGetToKnowSection"/> 
+		</classes> </test>
+
+</suite> 
+ 

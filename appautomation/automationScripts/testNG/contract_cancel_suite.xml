@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+     <listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+  <test name="Contract_Cancelled_Stage_Test_Web">
+    <classes>
+      <class name="com.movoto.scripts.agent.ContractCancel"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

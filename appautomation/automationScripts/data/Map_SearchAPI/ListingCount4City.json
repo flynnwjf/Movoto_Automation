@@ -1,0 +1,35 @@
+{
+
+    "testAPIName":"ListingCount4City",
+
+    "testData_TestAPI_ListingCount4City_1_version2":
+        {
+          "inputParameter4API":{"state":["ak","tx"]},
+          "expectedResults":
+          [
+            {"176797": 0, "73729": 0},
+            {"175407": 0, "175411": 0}
+          ]
+        },
+
+        "testData_TestAPI_ListingCount4City_1_version1":[
+            {
+              "inputParameter4API":{"state":"ak"},
+              "expectedResults":{"176797": 0, "73729": 0}
+            },
+            {
+              "inputParameter4API":{"state":"tx"},
+              "expectedResults":{"175407": 0, "175411": 0}
+            }
+        ],
+    "testData_TestAPI_ListingCount4City_2_version1":[
+            {
+              "inputParameter4API":{"state":"ca"},
+              "expectedResults":{"176797": 0, "73729": 0}
+            },
+            {
+              "inputParameter4API":{"state":"ny"},
+              "expectedResults":{"175407": 0, "175411": 0}
+            }
+        ]
+}

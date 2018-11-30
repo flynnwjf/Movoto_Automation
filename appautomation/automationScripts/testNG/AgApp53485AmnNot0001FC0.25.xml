@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Main Suite" verbose="1" annotations="JDK">
+<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+<suite-files>
+<suite-file path="LeadCreation.xml"></suite-file>
+<suite-file path="SalesforceNotificationTestforFC0.25.xml"></suite-file>
+<suite-file path="FC0.25_Notification_Test.xml"></suite-file>
+</suite-files>
+</suite> 

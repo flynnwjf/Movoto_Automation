@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="TC001_Agent_Android_Native">
+    <classes>
+      <class name="com.movoto.scripts.agent.AgentAppTest"/>
+    </classes>
+  </test> <!-- TC001_Agent_Android_Native -->
+  <test name="TC001_Agent_Android_Native(failed)" parallel="tests">
+    <classes>
+      <class name="com.movoto.scripts.agent.AgentAppTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="getScreenshot"/>
+          <include name="beforeMehtod"/>
+          <include name="testLogin"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.movoto.scripts.agent.AgentAppTest -->
+    </classes>
+  </test> <!-- TC001_Agent_Android_Native(failed) -->
+</suite> <!-- Failed suite [Suite] -->

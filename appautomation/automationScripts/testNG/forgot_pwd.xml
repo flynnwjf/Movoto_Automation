@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	<test name="Forgot_Password_Test">
+		<classes>
+			<class name="com.movoto.scripts.agent.ForgotPasswordTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+     <listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+  <test name="LeadCreation_Workflow_ANdroid_NSeries">
+    <classes>
+      <class name="com.movoto.scripts.agent.LeadCreationInSalesForceForAndroid"/>
+    </classes>
+  </test> <!-- Test -->
+<!--     <test name="LeadCreation_Workflow_IOS_NSeries">
+    <classes>
+      <class name="com.movoto.scripts.agent.LeadCreationInSalesforceForIOSNSeries"/>
+    </classes>
+  </test> Test -->
+</suite> <!-- Suite -->

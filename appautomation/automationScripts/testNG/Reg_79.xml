@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests">
+	
+    <listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	<!-- <test name="Reg_79_NewListingsSection_MacSafari">
+	<parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_79_NewListingsSection" />
+		</classes>
+	</test> -->
+	<!--  <test name="Reg_79_NewListingsSection_WindowsIE">
+	<parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_79_NewListingsSection" />
+		</classes>
+	</test>  -->
+	<!--  <test name="Reg_79_NewListingsSection_WindowsChrome">
+	  <parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_79_NewListingsSection" />
+		</classes>
+	</test>  -->
+	 <test name="Reg_79_NewListingsSection_AndroidChrome">
+	<parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_79_NewListingsSection" />
+		</classes>
+	</test>  
+	<!-- <test name="Reg_79_NewListingsSection_IOSSafari">
+	<parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_79_NewListingsSection" />
+		</classes>
+	</test> -->
+</suite>

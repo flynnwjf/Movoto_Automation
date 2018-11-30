@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests">
+	
+    <listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	<test name="Reg_70_ButtonActionTest_MacSafari">
+	<parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_70_ButtonActionTest" />
+		</classes>
+	</test>
+	  <!--  <test name="Reg_70_ButtonActionTest_WindowsChrome">
+	 <parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_70_ButtonActionTest" />
+		</classes>
+	</test>  -->              
+	    <!--  <test name="Reg_70_ButtonActionTest_AndroidChrome">
+	<parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_70_ButtonActionTest" />
+		</classes>
+	</test>   -->   
+	               <!--  <test name="Reg_70_ButtonActionTest_WindowsIE">
+	 <parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_70_ButtonActionTest" />
+		</classes> 
+	</test> -->           
+	<!--  <test name="Reg_70_ButtonActionTest_IOSSafari">
+	<parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_70_ButtonActionTest" />
+		</classes>
+	</test>  -->
+</suite>

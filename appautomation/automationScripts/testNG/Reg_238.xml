@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests">
+	
+    <listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	<!-- <test name="Reg_238_PropertyHistorySection_MacSafari">
+	<parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_238_PropertyHistorySection" />
+		</classes>
+	</test> -->
+	             <!-- <test name="Reg_238_PropertyHistorySection_WindowsChrome">
+	 <parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_238_PropertyHistorySection" />
+		</classes>
+	</test> -->           
+	   <!--  <test name="Reg_238_PropertyHistorySection_AndroidChrome">
+	<parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_238_PropertyHistorySection" />
+		</classes>
+	</test> -->    
+	  <!--             <test name="Reg_238_PropertyHistorySection_WindowsIE">
+	 <parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_238_PropertyHistorySection" />
+		</classes> 
+	</test>   -->          
+	<test name="Reg_238_PropertyHistorySection_IOSSafari">
+	<parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_238_PropertyHistorySection" />
+		</classes>
+	</test>
+</suite>

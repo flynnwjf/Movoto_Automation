@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="LeadCreation" parallel="tests">
+
+  <!-- <listeners>
+   <listener class-name="com.movoto.helper.CustomReporter" />
+  </listeners> -->
+ <test name="LeadCreation_Workflow">
+      <classes>
+         <class name="com.movoto.scripts.agent.CreateFC05"/>
+      </classes>
+     </test> 
+     
+<!--  <test name="LeadCreation_Workflow_IOS">
+        <classes>
+         <class name="com.movoto.scripts.agent.CreateFC05IOS"/>
+      </classes>
+     </test> -->
+ </suite>

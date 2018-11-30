@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+
+
+	<test name="AweSomeAndNearbyPropertiesForSale">
+        <parameter name="dataProviderPath" value="data/DataInitialization/NearBySearch.json"/>
+		<classes>
+			<class name="com.movoto.scripts.DataInitialization.ConsumerSiteData" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

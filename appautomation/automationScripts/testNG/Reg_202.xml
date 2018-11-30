@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+
+   <!-- <test name="Reg_202_SortingFunctoinality_MACSafari"> 
+	<classes> 
+		<class name="com.movoto.scripts.agent.Reg_202_SortingFunctoinality" /> 
+		</classes> 
+		</test>
+		 -->
+     <test name="Reg_202_SortingFunctoinality_AndroidChrome">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_202_SortingFunctoinality" />
+		</classes>
+	</test>
+	
+	 
+	<!-- <test name="Reg_202_Verify_Sorting_Functionality_IOSSafari">
+    <classes>								
+      <class name="com.movoto.scripts.agent.Reg_202_SortingFunctoinality"/>
+    </classes>	
+  </test> -->
+  	
+<!--   <test name="Reg_202_Verify_Sorting_Functionality_WindowsChrome">
+  <classes>
+   <class name="com.movoto.scripts.agent.Reg_202_SortingFunctoinality" />
+  </classes>
+     </test> -->
+    <!--  <test name="Reg_202_Verify_Sorting_Functionality_WindowsIE">
+  <classes>
+   <class name="com.movoto.scripts.agent.Reg_202_SortingFunctoinality" />
+  </classes>
+     </test> -->
+	<!-- Test -->
+</suite> <!-- Suite -->

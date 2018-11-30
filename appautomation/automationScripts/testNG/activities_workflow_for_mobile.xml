@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+  <test name="Activities_Workflow_For_Mobile">
+    <classes>
+      <class name="com.movoto.scripts.agent.Activities_Workflow_Mobile"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

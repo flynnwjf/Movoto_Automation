@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests">
+	
+    <listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	<!-- <test name="Reg_78_AwesomeSimilarHomes_MacSafari">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_78_AwesomeSimilarHomes" />
+		</classes>
+	</test> -->
+	<!-- <test name="Reg_78_AwesomeSimilarHomes_AndroidChrome">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_78_AwesomeSimilarHomes" />
+		</classes>
+	</test> -->
+	<test name="Reg_78_AwesomeSimilarHomes_IOSSafari">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_78_AwesomeSimilarHomes" />
+		</classes>
+	</test> 
+	<!-- <test name="Reg_78_AwesomeSimilarHomes_WindowsChrome">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_78_AwesomeSimilarHomes" />
+		</classes>
+	</test> -->
+	<!-- <test name="Reg_78_AwesomeSimilarHomes_WindowsIE">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_78_AwesomeSimilarHomes" />
+		</classes>
+	</test> -->
+</suite>

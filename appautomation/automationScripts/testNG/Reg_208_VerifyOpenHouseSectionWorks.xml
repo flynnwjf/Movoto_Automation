@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	            <!--    <test name="Reg_208_VerifyOpenHouseSectionWorks_WindowsIE"> 
+		<parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json" 
+		/> <classes> <class name="com.movoto.scripts.dsp.Reg_208_VerifyOpenHouseSectionWorks" 
+		/> </classes> </test>     -->            
+		
+		<!-- <test name="Reg_208_VerifyOpenHouseSectionWorks_WindowsChrome"> 
+		<parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json" 
+		/> <classes> <class name="com.movoto.scripts.dsp.Reg_208_VerifyOpenHouseSectionWorks" 
+		/> </classes> </test> -->       
+
+
+	                 <!-- <test name="Reg_208_VerifyOpenHouseSectionWorks_AndroidChrome"> 
+		<parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json" 
+		/> <classes> <class name="com.movoto.scripts.dsp.Reg_208_VerifyOpenHouseSectionWorks" 
+		/> </classes> </test> -->    
+		
+<!-- 	 <test name="Reg_208_VerifyOpenHouseSectionWorks_MACSafari"> 
+		<parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json" 
+		/> <classes> <class name="com.movoto.scripts.dsp.Reg_208_VerifyOpenHouseSectionWorks" 
+		/> </classes> </test>  -->
+		
+			 <test name="Reg_208_VerifyOpenHouseSectionWorks_IOSSafari"> 
+		<parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json" 
+		/> <classes> <class name="com.movoto.scripts.dsp.Reg_208_VerifyOpenHouseSectionWorks" 
+		/> </classes> </test> 
+		
+		
+
+</suite> <!-- Suite -->

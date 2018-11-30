@@ -1,0 +1,773 @@
+{
+  "RefreshPropertyDetailFromDB2ES":
+  {
+    "apiCategory":"ConsumerWebsiteAPI",
+    "apiName":"RefreshPropertyBasicInfo2ES",
+    "inputParameter4API":
+    {
+      "propertyID":""
+    }
+  },
+  "nearbyAwesomeHomesInitialization":
+  {
+    "location":
+    {
+      "latitude": 45.676784,
+      "longitude": -122.514298,
+    },
+    "remoteJob4NearbySearchAPI":
+    {
+      "serverName":"ESServer",
+      "shellFileName":"~/automationShell/SyncV5ToV2_LisitngSearch.sh"
+    },
+    "requestData4NearBySearchByLocationAPI":
+    {
+      "apiCategory":"ESAPI",
+       "apiName":"NearBySearchByLocation",
+       "postBody":
+        {
+          "from" : 0,
+          "size" : 20,
+          "query" : {
+            "filtered" : {
+              "query" : {
+                "match_all" : { }
+              },
+              "filter" : {
+                "and" : {
+                  "filters" : [ {
+                    "bool" : {
+                      "must" : [ {
+                        "term" : {
+                          "propertyStatus.name" : "ACTIVE"
+                        }
+                      }, {
+                        "term" : {
+                          "primaryListing" : true
+                        }
+                      }, {
+                        "bool" : {
+                          "should" : [ {
+                            "term" : {
+                              "propertyType.name" : "SINGLE_FAMILY_HOUSE"
+                            }
+                          }, {
+                            "term" : {
+                              "propertyType.name" : "CONDO"
+                            }
+                          } ]
+                        }
+                      }, {
+                        "missing" : {
+                          "field" : "hiddenDate"
+                        }
+                      }, {
+                        "missing" : {
+                          "field" : "propertyDateHidden"
+                        }
+                      } ],
+                      "must_not" : {
+                        "term" : {
+                          "visibility" : "NONE"
+                        }
+                      }
+                    }
+                  }, {
+                    "range" : {
+                      "photoCount" : {
+                        "from" : null,
+                        "to" : null,
+                        "include_lower" : true,
+                        "include_upper" : true
+                      }
+                    }
+                  }, {
+                    "bool" : {
+                      "must_not" : {
+                        "term" : {
+                          "_id" : "dad81386-ec9a-4ca6-8166-0cd260ece59f"
+                        }
+                      }
+                    }
+                  }, {
+                    "range" : {
+                      "listPrice" : {
+                        "from" : 179925.0,
+                        "to" : 299875.0,
+                        "include_lower" : true,
+                        "include_upper" : true
+                      }
+                    }
+                  }, {
+                    "range" : {
+                      "bedroom" : {
+                        "from" : 2.0,
+                        "to" : 7.0,
+                        "include_lower" : true,
+                        "include_upper" : true
+                      }
+                    }
+                  }, {
+                    "range" : {
+                      "bathroom" : {
+                        "from" : 1.0,
+                        "to" : 4.0,
+                        "include_lower" : true,
+                        "include_upper" : true
+                      }
+                    }
+                  }, {
+                    "bool" : {
+                      "should" : [ {
+                        "range" : {
+                          "sqftSize" : {
+                            "from" : 892.0,
+                            "to" : 2676.0,
+                            "include_lower" : true,
+                            "include_upper" : true
+                          }
+                        }
+                      }, {
+                        "missing" : {
+                          "field" : "sqftSize"
+                        }
+                      }, {
+                        "range" : {
+                          "sqftSize" : {
+                            "from" : null,
+                            "to" : 100,
+                            "include_lower" : true,
+                            "include_upper" : true
+                          }
+                        }
+                      } ]
+                    }
+                  }, {
+                    "geo_distance" : {
+                      "location" : [ -122.514298, 45.676784 ],
+                      "distance" : "40.0mi"
+                    }
+                  } ]
+                }
+              }
+            }
+          },
+          "sort" : [ {
+            "_geo_distance" : {
+              "location" : [ {
+                "lat" : 45.676784,
+                "lon" : -122.514298
+              } ],
+              "unit" : "mi"
+            }
+          } ]
+        }
+    }
+    ,
+    "DB":
+    {
+      "serverName":"DB3Movoto"
+      ,"functionName4SQL":"func_nearByProperties4NewAndOpenHouses"
+    }
+  },
+  "newListingsAndOpenHouseInitialization":
+  {
+    "nearbyNewListings4DPP":
+    {
+    "location":
+    {
+      "latitude": 45.676784,
+      "longitude": -122.514298,
+    },
+    "nearbyNewListings4DPPAPIRequestInfo":
+    {
+      "apiCategory":"ESAPI",
+      "apiName":"NearBySearchByLocation",
+      "postBody":
+      {
+        "from" : 0,
+        "size" : 20,
+        "query" : {
+          "filtered" : {
+            "query" : {
+              "match_all" : { }
+            },
+            "filter" : {
+              "and" : {
+                "filters" : [ {
+                  "bool" : {
+                    "must" : [ {
+                      "term" : {
+                        "propertyStatus.name" : "ACTIVE"
+                      }
+                    }, {
+                      "term" : {
+                        "primaryListing" : true
+                      }
+                    }, {
+                      "bool" : {
+                        "should" : [ {
+                          "term" : {
+                            "propertyType.name" : "SINGLE_FAMILY_HOUSE"
+                          }
+                        }, {
+                          "term" : {
+                            "propertyType.name" : "CONDO"
+                          }
+                        } ]
+                      }
+                    }, {
+                      "missing" : {
+                        "field" : "hiddenDate"
+                      }
+                    }, {
+                      "missing" : {
+                        "field" : "propertyDateHidden"
+                      }
+                    } ],
+                    "must_not" : {
+                      "term" : {
+                        "visibility" : "NONE"
+                      }
+                    }
+                  }
+                }, {
+                  "range" : {
+                    "photoCount" : {
+                      "from" : null,
+                      "to" : null,
+                      "include_lower" : true,
+                      "include_upper" : true
+                    }
+                  }
+                }, {
+                  "bool" : {
+                    "must_not" : {
+                      "term" : {
+                        "_id" : "dad81386-ec9a-4ca6-8166-0cd260ece59f"
+                      }
+                    }
+                  }
+                }, {
+                  "range" : {
+                    "listPrice" : {
+                      "from" : 179925.0,
+                      "to" : 299875.0,
+                      "include_lower" : true,
+                      "include_upper" : true
+                    }
+                  }
+                }, {
+                  "range" : {
+                    "bedroom" : {
+                      "from" : 2.0,
+                      "to" : 7.0,
+                      "include_lower" : true,
+                      "include_upper" : true
+                    }
+                  }
+                }, {
+                  "range" : {
+                    "bathroom" : {
+                      "from" : 1.0,
+                      "to" : 4.0,
+                      "include_lower" : true,
+                      "include_upper" : true
+                    }
+                  }
+                }, {
+                  "bool" : {
+                    "should" : [ {
+                      "range" : {
+                        "sqftSize" : {
+                          "from" : 892.0,
+                          "to" : 2676.0,
+                          "include_lower" : true,
+                          "include_upper" : true
+                        }
+                      }
+                    }, {
+                      "missing" : {
+                        "field" : "sqftSize"
+                      }
+                    }, {
+                      "range" : {
+                        "sqftSize" : {
+                          "from" : null,
+                          "to" : 100,
+                          "include_lower" : true,
+                          "include_upper" : true
+                        }
+                      }
+                    } ]
+                  }
+                }, {
+                  "geo_distance" : {
+                    "location" : [ -122.514298, 45.676784 ],
+                    "distance" : "40.0mi"
+                  }
+                } ]
+              }
+            }
+          }
+        },
+        "sort" : [ {
+          "_geo_distance" : {
+            "location" : [ {
+              "lat" : 45.676784,
+              "lon" : -122.514298
+            } ],
+            "unit" : "mi"
+          }
+        } ]
+      }
+    },
+  },
+  "nearbyNewListings4City":
+  {
+    "location":
+    {
+      "latitude": 27.285723,
+      "longitude": -80.376459,
+    },
+    "nearbyNewListingsAndOpenHouse4CityAPIRequestInfo":
+    {
+      "apiCategory":"ESAPI",
+      "apiName":"NearBySearchByLocation",
+      "postBody":
+      {
+        "from" : 0,
+        "size" : 20,
+        "query" : {
+          "filtered" : {
+            "query" : {
+              "match_all" : { }
+            },
+            "filter" : {
+              "and" : {
+                "filters" : [ {
+                  "bool" : {
+                    "must" : [ {
+                      "bool" : {
+                        "should" : {
+                          "term" : {
+                            "mlsAddress.city" : "port saint lucie"
+                          }
+                        }
+                      }
+                    }, {
+                      "term" : {
+                        "mlsAddress.state" : "fl"
+                      }
+                    }, {
+                      "term" : {
+                        "primaryListing" : true
+                      }
+                    }, {
+                      "missing" : {
+                        "field" : "hiddenDate"
+                      }
+                    }, {
+                      "missing" : {
+                        "field" : "propertyDateHidden"
+                      }
+                    }, {
+                      "bool" : {
+                        "should" : [ {
+                          "term" : {
+                            "propertyStatus.name" : "ACTIVE"
+                          }
+                        }, {
+                          "bool" : {
+                            "must" : {
+                              "term" : {
+                                "propertyStatus.name" : "PENDING"
+                              }
+                            },
+                            "must_not" : {
+                              "terms" : {
+                                "mls.id" : [ 432, 454, 484, 521, 561, 574, 622, 662, 663, 741, 811, 812, 813, 950, 960, 970, 993, 437 ]
+                              }
+                            }
+                          }
+                        } ]
+                      }
+                    } ],
+                    "must_not" : {
+                      "term" : {
+                        "visibility" : "NONE"
+                      }
+                    },
+                    "should" : [ {
+                      "bool" : {
+                        "must" : {
+                          "bool" : {
+                            "should" : [ {
+                              "term" : {
+                                "propertyType.name" : "SINGLE_FAMILY_HOUSE"
+                              }
+                            }, {
+                              "term" : {
+                                "propertyType.name" : "CONDO"
+                              }
+                            } ]
+                          }
+                        }
+                      }
+                    }, {
+                      "bool" : {
+                        "must" : [ {
+                          "terms" : {
+                            "mls.id" : [ 484, 455, 502, 413, 301, 483, 415, 437, 405, 434, 575, 872, 422, 202, 402, 401, 441, 421, 403, 461, 571, 842, 211, 416, 208, 212, 429, 213, 400, 406, 440, 487, 993, 409, 832, 836, 12, 482, 102, 491, 310, 300, 431, 210, 100, 501, 432, 321, 451, 101, 452 ]
+                          }
+                        }, {
+                          "bool" : {
+                            "should" : [ {
+                              "term" : {
+                                "propertyType.name" : "MULTI_FAMILY"
+                              }
+                            }, {
+                              "term" : {
+                                "propertyType.name" : "LAND"
+                              }
+                            }, {
+                              "term" : {
+                                "propertyType.name" : "OTHER"
+                              }
+                            }, {
+                              "term" : {
+                                "propertyType.name" : "MOBILE"
+                              }
+                            } ]
+                          }
+                        } ]
+                      }
+                    } ]
+                  }
+                }, {
+                  "range" : {
+                    "openHouses.date" : {
+                      "from" : "2017-02-06T00:00:00.000",
+                      "to" : "2018-02-12T00:00:00.000",
+                      "include_lower" : true,
+                      "include_upper" : true
+                    }
+                  }
+                } ]
+              }
+            }
+          }
+        },
+        "sort" : [ {
+          "propertyStatus.name" : {
+            "order" : "asc",
+            "missing" : "_last"
+          }
+        }, {
+          "onMarketDate" : {
+            "order" : "desc",
+            "missing" : "_last"
+          }
+        }, {
+          "photoCount" : {
+            "order" : "desc",
+            "missing" : "_last"
+          }
+        } ]
+      }
+    },
+  },
+  "nearbyNewListings4ZipCode":
+  {
+    "location":
+    {
+      "latitude": 41.903683,
+      "longitude": -71.513045,
+    },
+    "nearbyNewListingsAndOpenHouse4ZipCodeAPIRequestInfo":
+    {
+      "apiCategory":"ESAPI",
+      "apiName":"NearBySearchByLocation",
+      "postBody":
+      {
+        "from": 0,
+        "size": 20,
+        "query": {
+          "filtered": {
+            "query": {
+              "match_all": {}
+            },
+            "filter": {
+              "and": {
+                "filters": [
+                  {
+                    "bool": {
+                      "must": [
+                        {
+                          "bool": {
+                            "should": {
+                              "term": {
+                                "mlsAddress.zipCode": "34953"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "term": {
+                            "primaryListing": true
+                          }
+                        },
+                        {
+                          "missing": {
+                            "field": "hiddenDate"
+                          }
+                        },
+                        {
+                          "missing": {
+                            "field": "propertyDateHidden"
+                          }
+                        },
+                        {
+                          "bool": {
+                            "should": [
+                              {
+                                "term": {
+                                  "propertyStatus.name": "ACTIVE"
+                                }
+                              },
+                              {
+                                "bool": {
+                                  "must": {
+                                    "term": {
+                                      "propertyStatus.name": "PENDING"
+                                    }
+                                  },
+                                  "must_not": {
+                                    "terms": {
+                                      "mls.id": [
+                                        432,
+                                        454,
+                                        484,
+                                        521,
+                                        561,
+                                        574,
+                                        622,
+                                        662,
+                                        663,
+                                        741,
+                                        811,
+                                        812,
+                                        813,
+                                        950,
+                                        960,
+                                        970,
+                                        993,
+                                        437
+                                      ]
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "must_not": {
+                        "term": {
+                          "visibility": "NONE"
+                        }
+                      },
+                      "should": [
+                        {
+                          "bool": {
+                            "must": {
+                              "bool": {
+                                "should": [
+                                  {
+                                    "term": {
+                                      "propertyType.name": "SINGLE_FAMILY_HOUSE"
+                                    }
+                                  },
+                                  {
+                                    "term": {
+                                      "propertyType.name": "CONDO"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "bool": {
+                            "must": [
+                              {
+                                "terms": {
+                                  "mls.id": [
+                                    484,
+                                    455,
+                                    502,
+                                    413,
+                                    301,
+                                    483,
+                                    415,
+                                    437,
+                                    405,
+                                    434,
+                                    575,
+                                    872,
+                                    422,
+                                    202,
+                                    402,
+                                    401,
+                                    441,
+                                    421,
+                                    403,
+                                    461,
+                                    571,
+                                    842,
+                                    211,
+                                    416,
+                                    208,
+                                    212,
+                                    429,
+                                    213,
+                                    400,
+                                    406,
+                                    440,
+                                    487,
+                                    993,
+                                    409,
+                                    832,
+                                    836,
+                                    12,
+                                    482,
+                                    102,
+                                    491,
+                                    310,
+                                    300,
+                                    431,
+                                    210,
+                                    100,
+                                    501,
+                                    432,
+                                    321,
+                                    451,
+                                    101,
+                                    452
+                                  ]
+                                }
+                              },
+                              {
+                                "bool": {
+                                  "should": [
+                                    {
+                                      "term": {
+                                        "propertyType.name": "MULTI_FAMILY"
+                                      }
+                                    },
+                                    {
+                                      "term": {
+                                        "propertyType.name": "LAND"
+                                      }
+                                    },
+                                    {
+                                      "term": {
+                                        "propertyType.name": "OTHER"
+                                      }
+                                    },
+                                    {
+                                      "term": {
+                                        "propertyType.name": "MOBILE"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "range": {
+                      "openHouses.date": {
+                        "from": "2017-01-13T00:00:00.000",
+                        "to": "2018-02-19T00:00:00.000",
+                        "include_lower": true,
+                        "include_upper": true
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "sort": [
+          {
+            "propertyStatus.name": {
+              "order": "asc",
+              "missing": "_last"
+            }
+          },
+          {
+            "onMarketDate": {
+              "order": "desc",
+              "missing": "_last"
+            }
+          },
+          {
+            "photoCount": {
+              "order": "desc",
+              "missing": "_last"
+            }
+          }
+        ]
+      }
+    },
+
+  },
+    "DB":
+    {
+      "UpdateServer":"DB3"
+      ,"functionName4SQL":"func_nearByProperties4NewAndOpenHouses"
+    }
+  },
+  "Statistics4SnapShotInitialization":
+  {
+    "Statistics4CityMarketTrendsAPIRequestInfo":
+    {
+      "apiCategory":"ConsumerWebsiteAPI",
+      "apiName":"CityDailyStatistics",
+      "inputParameter4API":
+      {
+          "cityID":"1437"
+      }
+    },
+    "Statistics4ZipCodeMarketTrendsAPIRequestInfo":
+    {
+      "apiCategory":"ConsumerWebsiteAPI",
+      "apiName":"ZipCodeDailyStatistics",
+      "inputParameter4API":
+      {
+        "zipCode":"02917"
+      }
+    },
+    "Statistics4NeighborhoodMarketTrendsAPIRequestInfo":
+    {
+      "apiCategory":"ConsumerWebsiteAPI",
+      "apiName":"NeighborhoodDailyStatistics",
+      "inputParameter4API":
+      {
+        "neighborhoodID":"75558"
+      }
+    },
+    "DB":
+    {
+      "serverName":"DB2marketstatistics"
+      ,"functionName4SQL":"func_statistics4SnapShot"
+    }
+  }
+}

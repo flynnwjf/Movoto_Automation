@@ -1,0 +1,22 @@
+{
+
+    "ESServer":
+    {
+      "host":"post-processor3.ng.movoto.net",
+      "port":"22",
+      "usr":"wjiang",
+      "pwd":"Admin@123"
+    },
+    "DB3Movoto":
+    {
+      "url":"jdbc:mysql://db3.ng.movoto.net:3306/movoto",
+      "usr":"movoto",
+      "pwd":"movoto123!"
+    },
+    "DB2marketstatistics":
+    {
+      "url":"jdbc:mysql://db2.internal.ng.movoto.net/market_statistics",
+      "usr":"tester",
+      "pwd":"movoto@321"
+    }
+}

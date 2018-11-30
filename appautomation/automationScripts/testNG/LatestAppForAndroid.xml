@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	
+ <test name="LatestAppForAndroid">
+		<classes>
+			<class name="com.movoto.scripts.agent.LatestAppForAndroid" />
+		</classes>
+	</test> 
+</suite> <!-- Suite -->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	
+	<test name="Reg_92_MapSearch_WindowsIE">
+  		<classes>
+			<class name="com.movoto.scripts.agent.Reg_92_MapSearch"/>
+  		</classes>
+	</test>
+
+	<!-- <test name="Reg_92_MapSearch_WindowsChrome">
+	    <classes>
+			<class name="com.movoto.scripts.agent.Reg_92_MapSearch"/>
+	    </classes>
+  	</test> -->
+  
+  <!-- <test name="Reg_92_MapSearch_MacSafari">
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_92_MapSearch"/>
+    </classes>
+  </test> -->
+  
+  <!-- <test name="Reg_92_MapSearch_AndroidChrome">
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_92_MapSearch"/>
+    </classes>
+  </test> -->
+  
+  <!-- <test name="Reg_92_MapSearch_IOSSafari">
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_92_MapSearch"/>
+    </classes>
+  </test> -->
+</suite> <!-- Suite -->

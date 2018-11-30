@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="5">
+    <listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+  <test name="Urgency_Test_Web">
+    <classes>
+      <class name="com.movoto.scripts.agent.UrgencyTest"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

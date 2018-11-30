@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+ <!--  <test name="Reg_196_Add_Favourite_Functionality_WindowsIE">
+      <parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+  <classes>
+      <class name="com.movoto.scripts.agent.Reg_196_Add_Favourite_Functionality"/>
+    </classes>
+  </test>  -->
+  
+ <!--  <test name="Reg_196_Add_Favourite_Functionality_MACSafari">
+
+  <parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_196_Add_Favourite_Functionality"/>
+    </classes>
+  </test> 
+ -->   
+ <!-- <test name="Reg_196_Add_Favourite_Functionality_AndroidChrome">
+  <parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_196_Add_Favourite_Functionality"/>
+    </classes>
+
+  </test> -->
+  
+  <!--   <test name="Reg_196_Add_Favourite_Functionality_WindowsChrome">
+
+  <parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_196_Add_Favourite_Functionality"/>
+    </classes>
+
+  </test>  -->
+  
+  <test name="Reg_196_Add_Favourite_Functionality_IOSSafari">
+  <parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_196_Add_Favourite_Functionality"/>
+    </classes>
+  </test>
+ </suite> <!-- Suite -->

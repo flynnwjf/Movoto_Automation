@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Main Suite" verbose="1" annotations="JDK" suitThreadPoolSize="5">
+<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+</listeners>
+<suite-files>
+<suite-file path="AmnCD0001-5_ClientDetailsWorkflow_Extended.xml"></suite-file>	<!--  ClientDetails-->
+<suite-file path="FunctionalTest_Leaves.xml"></suite-file>  <!-- Leaves -->
+<suite-file path="FunctionalTest_ClientList.xml"></suite-file>		<!--Client List  -->
+ <suite-file path="FunctionalTest_Activities.xml"></suite-file>		<!--Activities  -->
+ <suite-file path="FunctionalTest_Notifications.xml"></suite-file>	<!--Notifications  -->
+</suite-files>
+</suite> 
+

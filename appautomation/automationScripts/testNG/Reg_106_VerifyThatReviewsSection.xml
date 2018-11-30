@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	
+
+	 <!-- <test name="Reg_106_VerifyThatReviewsSection_WindowsChrome">
+  <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_106_VerifyThatReviewsSection"/>
+    </classes>
+  </test>  -->
+     
+     <!-- <test name="Reg_106_VerifyThatReviewsSection_WindowsIE">
+    <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_106_VerifyThatReviewsSection"/>
+    </classes>
+  </test> 
+   
+      <test name="Reg_106_VerifyThatReviewsSection_AndroidChrome">
+     <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_106_VerifyThatReviewsSection"/>
+    </classes>
+  </test> --> 
+  
+ <!-- <test name="Reg_106_VerifyThatReviewsSection_MacSafari">
+  <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_106_VerifyThatReviewsSection"/>
+    </classes>
+  </test>  -->
+  
+  <test name="Reg_106_VerifyThatReviewsSection_IOSSafari">
+  <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_106_VerifyThatReviewsSection"/>
+    </classes>
+  </test>
+
+</suite> <!-- Suite -->

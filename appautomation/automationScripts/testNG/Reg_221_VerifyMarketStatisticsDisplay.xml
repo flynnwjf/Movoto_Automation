@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+
+
+	<test name="Reg_221_VerifyMarketStatisticsDisplay_WindowsChrome">
+		<parameter name="dataProviderPath" value="data/Market_Trends/MarketTrendDataProvider.json" />
+		<classes>
+			<class name="com.movoto.scripts.market.trends.Reg_221_VerifyMarketStatisticsDisplay" />
+		</classes>
+	</test>
+
+	<!-- <test name="Reg_221_VerifyMarketStatisticsDisplay_WindowsIE"> <classes> 
+		<parameter name="dataProviderPath" value="data/Market_Trends/MarketTrendDataProvider.json" 
+		/> <class name="com.movoto.scripts.market.trends.Reg_221_VerifyMarketStatisticsDisplay" 
+		/> </classes> </test> -->
+	<!-- 	
+	<test name="Reg_221_VerifyMarketStatisticsDisplay_MacSafari"> <classes> 
+		<parameter name="dataProviderPath" value="data/Market_Trends/MarketTrendDataProvider.json" 
+		/> <class name="com.movoto.scripts.market.trends.Reg_221_VerifyMarketStatisticsDisplay" 
+		/> </classes> </test> -->
+		
+	<!-- <test name="Reg_221_VerifyMarketStatisticsDisplay_AndroidChrome"> <classes> 
+		<parameter name="dataProviderPath" value="data/Market_Trends/MarketTrendDataProvider.json" 
+		/> <class name="com.movoto.scripts.market.trends.Reg_221_VerifyMarketStatisticsDisplay" 
+		/> </classes> </test> -->
+
+	<!-- <test name="Reg_221_VerifyMarketStatisticsDisplay_IOSSafari"> <classes> 
+		<parameter name="dataProviderPath" value="data/Market_Trends/MarketTrendDataProvider.json" 
+		/> <class name="com.movoto.scripts.market.trends.Reg_221_VerifyMarketStatisticsDisplay" 
+		/> </classes> </test> -->
+</suite> 
+ 

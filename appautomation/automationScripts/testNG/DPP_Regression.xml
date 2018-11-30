@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	<test name="Reg_68_PhotoGallaryTest_AndroidChrome">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_68_PhotoGallaryTest" />
+		</classes>
+	</test>
+
+	<test name="Reg_69_BasicInfolist_AndroidChrome">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_69_BasicInfolist" />
+		</classes>
+	</test>
+	
+	<test name="Reg_70_ButtonActionTest_AndroidChrome">
+	<parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_70_ButtonActionTest" />
+		</classes>
+	</test>
+
+	<test name="Reg_71_HouseSectionFeature_AndroidChrome">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_71_HouseSectionFeature" />
+		</classes>
+	</test>
+
+	<test name="Reg_73_AssignedSchoolsSection_AndroidChrome">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_73_AssignedSchoolsSection" />
+		</classes>
+	</test>
+	
+	<test name="Reg_74_SoldComparableHome_AndroidChrome">
+      <classes>
+        <class name="com.movoto.scripts.agent.Reg_74_SoldComparableHome" />
+      </classes>
+  	</test>
+  	
+	<test name="Reg_75_PointOfInterestSection_AndroidChrome">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_75_PointOfInterestSection" />
+		</classes>
+	</test>
+	
+	<test name="Reg_76_ComparableSimilarHomes_AndroidChrome">
+      <classes>
+        <class name="com.movoto.scripts.agent.Reg_76_ComparableSimilarHomes" />
+      </classes>
+  	</test>
+  	
+  	<test name="Reg_77_GetToKnowSection_AndroidChrome">
+	<parameter name="dataProviderPath" value="data/Demographics/DemographicsDataProvider.json" />
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_77_GetToKnowSection" />
+		</classes>
+	</test> 
+	
+	<test name="Reg_78_AwesomeSimilarHomes_AndroidChrome">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_78_AwesomeSimilarHomes" />
+		</classes>
+	</test>
+	
+	<test name="Reg_79_NewListingsSection_AndroidChrome">
+	<parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_79_NewListingsSection" />
+		</classes>
+	</test>
+	
+	<test name="Reg_83_MortgageCalculator_AndroidChrome">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_83_MortgageCalculator" />
+		</classes>
+	</test>
+
+	<!-- <test name="Reg_84_MortgageWidget_AndroidChrome">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_84_MortgageWidget" />
+		</classes>
+	</test> -->
+
+	<test name="Reg_88_MarketStatisticsSection_AndroidChrome">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_88_MarketStatisticsSection" />
+		</classes>
+	</test>
+	
+	<test name="Reg_90VerifythatRecentlyViewsectionworkswell_AndroidChrome">
+	 <parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_90VerifythatRecentlyViewsectionworkswell" />
+		</classes>
+	</test>
+	
+	<test name="Reg_91_PublicRecordsSection_AndroidChrome">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_91_PublicRecordsSection" />
+		</classes>
+	</test>
+
+	<test name="Reg_111_HotLead_AndroidChrome">
+	<parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_111_HotLead" />
+		</classes>
+	</test>
+	
+	<test name="Reg_235_OpenHouseInformationSection_AndroidChrome">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_235_OpenHouseInformationSection" />
+		</classes>
+	</test>
+	<test name="Reg_236_VerifythatContactAgent_AndroidChrome">
+		 <parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_236_VerifythatContactAgent" />
+		</classes>
+	</test>
+	<test name="Reg_237_ScheduleAViewingSecion_AndroidChrome">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_237_ScheduleAViewingSecion" />
+		</classes>
+	</test>
+	
+	<test name="Reg_238_PropertyHistorySection_AndroidChrome">
+	<parameter name="dataProviderPath" value="data/DPP/DPPDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_238_PropertyHistorySection" />
+		</classes>
+	</test>
+</suite>

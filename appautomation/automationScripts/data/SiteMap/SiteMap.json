@@ -1,0 +1,39 @@
+{
+  "siteMapTest":
+  {
+    "domain":"http://alpaca.san-mateo.movoto.net:3025/",
+    "testStates":["ak","al","ar","az","ca","co","ct","dc","de","fl","ga","hi","ia","id","il","in","ks","ky","la","ma","md","me","mi","mn","mo","ms","mt","nc","nd","ne","nh","nj","nm","nv","ny","oh","ok","or","pa","ri","sc","sd","tn","tx","ut","va","vt","wa","wi","wv","wy"],
+    "siteMapPages":
+    [
+      {
+       "pageName":"Demographics_Cities",
+       "uri":"%s/demographics/",
+       "API":
+       {
+         "apiName":"SpecificZipCodes4StateAPI",
+         "inputParameter4API":
+         {
+           "state":"{one of testStates}"
+         },
+         "BuildMethod":["GroupByZipcodesExcludingCounty"]
+       },
+        "testState":"ak",
+        "ExpectedResults":
+        [
+          {
+            "ListedItems":
+            [
+              {
+                  "Text": "%s Demographics,$.items.abbreviation",
+                  "URL": "http://www2.movoto.com/%s,$.demographicsPageUrl"
+              }
+
+            ],
+            "Title": "\"%sxx\" Zip codes in %s,$.zipcodePatern,$.stateName"
+
+          }
+        ]
+      }
+    ]
+  }
+}

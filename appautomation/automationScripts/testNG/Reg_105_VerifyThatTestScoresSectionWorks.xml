@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+
+	    <!--  <test name="Reg_105_VerifyThatTestScoresSectionWorks_WindowsIE"> <parameter 
+		name="dataProviderPath" value="data/DSP/DSPDataProvider.json" /> <classes> 
+		<class name="com.movoto.scripts.dsp.Reg_105_VerifyThatTestScoresSectionWorks" 
+		/> </classes> </test>  --> 
+
+	  <!--  <test name="Reg_105_VerifyThatTestScoresSectionWorks_WindowsChrome">
+		<parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json" />
+		<classes>
+			<class
+				name="com.movoto.scripts.dsp.Reg_105_VerifyThatTestScoresSectionWorks" />
+		</classes>
+	</test>  -->
+
+	
+
+	  <!--  <test name="Reg_105_VerifyThatTestScoresSectionWorks_AndroidChrome"> <parameter 
+		name="dataProviderPath" value="data/DSP/DSPDataProvider.json" /> <classes> 
+		<class name="com.movoto.scripts.dsp.Reg_105_VerifyThatTestScoresSectionWorks" 
+		/> </classes>
+	 </test>   -->
+
+
+	 <!-- <test name="Reg_105_VerifyThatTestScoresSectionWorks_MACSafari"> <parameter 
+		name="dataProviderPath" value="data/DSP/DSPDataProvider.json" /> <classes> 
+		<class name="com.movoto.scripts.dsp.Reg_105_VerifyThatTestScoresSectionWorks" 
+		/> </classes> </test>   -->
+		
+	 <test name="Reg_105_VerifyThatTestScoresSectionWorks_IOSSafari">
+     <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_105_VerifyThatTestScoresSectionWorks"/>
+    </classes>
+  </test>  
+</suite> <!-- Suite -->

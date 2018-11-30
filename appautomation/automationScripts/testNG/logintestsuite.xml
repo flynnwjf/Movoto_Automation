@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="5">
+    <listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	<test name="Login_Test_Suite_SJ7">
+    <classes>
+      <class name="com.movoto.scripts.agent.LoginTest"/>
+    </classes>
+  </test>
+ <!-- <test name="Login_Test_Suite_IOS">
+    <classes>
+      <class name="com.movoto.scripts.agent.LoginTest"/>
+    </classes>
+  </test>
+  <test name="Login_Test_Suite_OP2">
+    <classes>
+      <class name="com.movoto.scripts.agent.LoginTest"/>
+    </classes>
+  </test> 
+  <test name="Login_Test_Suite_SJ7">
+    <classes>
+      <class name="com.movoto.scripts.agent.LoginTest"/>
+    </classes>
+  </test> 
+  <test name="Login_Test_Suite_SN4">
+    <classes>
+      <class name="com.movoto.scripts.agent.LoginTest"/>
+    </classes>
+  </test>  -->
+</suite> <!-- Suite -->

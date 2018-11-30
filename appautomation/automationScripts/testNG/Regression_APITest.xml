@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests" thread-count="1">
+	
+    <listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	   <parameter name="platform" value="API"/>
+       <test name="TestAPI_ListingCount4City_1_version1">
+           <parameter name="dataProviderPath" value="data/Map_SearchAPI/ListingCount4City.json"/>
+           <classes>
+               <class name="com.movoto.scripts.apis.CommonAPITest" />
+           </classes>
+       </test>
+	   <!--
+	   <test name="TestAPI_ListingCount4City_1_version2">
+	   		<parameter name="testAPIName" value="ListingCount4City"/>
+	   		<parameter name="inputParameter4API" value="ak,tx"/>
+	   		
+	   		<parameter name="dataProviderPath" value="data/Map_SearchAPI/ListingCount4City.json"/>
+			<classes>
+				<class name="com.movoto.scripts.apis.CommonAPITest" />
+			</classes>
+       </test>
+       
+       
+       <test name="TestAPI_ListingCount4City_2_version1">
+	   		<parameter name="dataProviderPath" value="data/Map_SearchAPI/ListingCount4City.json"/>
+			<classes>
+				<class name="com.movoto.scripts.apis.CommonAPITest" />
+			</classes>
+       </test>-->
+       <!--
+       <test name="Reg_68_PhotoGallaryTest">
+	   		<parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+			<classes>
+				<class name="com.movoto.scripts.agent.Reg_68_PhotoGallaryTest" />
+			</classes>
+       </test>
+       <test name="TestAPI_SchoolsCount4StateCities_1">
+	   		<parameter name="dataProviderPath" value="data/Map_SearchAPI/SchoolsCount4StateCities.json"/>
+			<classes>
+				<class name="com.movoto.scripts.apis.CommonAPITest" />
+			</classes>
+       </test>-->
+	   </suite>

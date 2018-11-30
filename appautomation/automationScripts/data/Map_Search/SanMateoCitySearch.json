@@ -1,0 +1,21 @@
+{  
+   "input":"Madison WI",
+   "propertyTypes":[],
+   "pageIndex":1,
+   "maxCountPerPage":20,
+   "isReducedPrice":0,
+   "isOpenHousesOnly":0,
+   "isNewListingsOnly":0,
+   "isDistressed":0,
+   "isFixerUpper":0,
+   "hasPhoto":0,
+   "hasPool":0,
+   "minLat":0,
+   "maxLat":0,
+   "minLng":0,
+   "maxLng":0,
+   "minSqft":0,
+   "searchPropertyStatus":"ACTIVE_AND_PENDING",
+   "schoolDistricts":null,
+   "searchType":"CITY"
+}

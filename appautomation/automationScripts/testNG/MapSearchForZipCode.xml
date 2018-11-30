@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+  <test name="MapSearchForZipCode_Web">
+    <classes>
+      
+      <class name="com.movoto.scripts.agent.MapSearchForZipCode"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

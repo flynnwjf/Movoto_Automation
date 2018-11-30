@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="DSP_Regression" verbose="1" annotations="JDK"
+	suitThreadPoolSize="8">
+	<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	<suite-files>
+    	<!-- <suite-file path="Reg_103_VerifyThatSchoolsBasicInfoDisplay.xml"></suite-file>
+		<suite-file path="Reg_105_VerifyThatTestScoresSectionWorks.xml"></suite-file>
+		<suite-file path="Reg_106_VerifyThatReviewsSection.xml"></suite-file>
+		<suite-file path="Reg_108_VerifyNearbySchoolSection.xml"></suite-file>-->
+		<!-- <suite-file path="Reg_110_VerifyPropertiesAssignedToSchoolSectionWorks.xml"></suite-file> -->
+		<!-- <suite-file path="Reg_207_VerifyNewListingsSectionWorksWell.xml"></suite-file> -->
+		<!-- <suite-file path="Reg_208_VerifyOpenHouseSectionWorks.xml"></suite-file>  -->
+		<!-- <suite-file path="Reg_234.xml"></suite-file> -->
+		</suite-files>
+</suite>

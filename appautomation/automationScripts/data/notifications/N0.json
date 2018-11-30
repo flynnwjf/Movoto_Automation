@@ -1,0 +1,73 @@
+{
+	"notifications": [{
+			"notificationId": "f2dffa2c-2ce2-4a91-bd22-f2f6139ef2a6",
+			"to": "agentautomationtest1@movoto.com",
+			"notificationType": "N0",
+            			"notificationParams": [
+				{
+					"key": "agentId",
+					"value": "ded34f56-fac3-4eed-a849-9bc299dcf11c"
+				},
+				{
+					"key": "clientId",
+					"value": "939d5fc8-69e2-430c-9caf-aef06099bb86"
+				}, 
+				{
+					"key": "price",
+					"value": "100000"
+				},
+				{
+					"key": "cityname",
+					"value": "San Mateo"
+				}, 
+				{
+					"key": "zipcode",
+					"value": "94404"
+				},
+				{
+					"key": "leadOpportunityId",
+					"value": "7452136587"
+				},
+				{
+					"key": "expirationTime",
+					"value": "04/31/2016 07:44:23 pm"
+				},
+				{
+					"key": "clientEmail",
+					"value": "agentautomationtest1@movoto.com"
+				},
+				{
+					"key": "clientPhone",
+					"value": "8581234565"
+				},
+				{
+					"key": "clientFirstName",
+					"value": "Test6272"
+				},
+				{
+					"key": "clientLastName",
+					"value": "Last8559"
+				},
+				{
+				"notificationContent": {
+				"p": "275000",
+				"z": "22709",
+				"ct": "Aroda",
+				"r1": "Please Reply (Yes/No)",
+				"r2": "Can you take a client for $275,000 in Aroda, 22709?",
+				"run_id": "test-1459449912940",
+				"lead_id": "0000006974",
+				"client_id": "939d5fc8-69e2-430c-9caf-aef06099bb86"
+			}
+				}
+			],
+			"expired": true,
+			"hasRead": true,
+			"notificationDateTime": "04/31/2016 08:00:23 pm"
+			
+
+		}
+
+
+	]
+}

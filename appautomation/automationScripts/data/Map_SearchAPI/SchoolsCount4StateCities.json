@@ -1,0 +1,13 @@
+{
+  "apiName":"SchoolsCount4StateCities",
+  [
+      {
+        "postBody":{"cityCodes":[73410,176750]},
+        "expectedResults":{"73410": "1"}
+      },
+      {
+        "postBody":{"cityCodes":[176768,73422]},
+        "expectedResults":{"176768": "1","73422": "1"}
+      }
+  ]
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+
+	<!-- <test name="Reg_216_VerifyNewListingSectionWorksWell_WindowsChrome">
+		<parameter name="dataProviderPath" value="data/Market_Trends/MarketTrendDataProvider.json" />
+		<classes>
+			<class name="com.movoto.scripts.market.trends.Reg_216_VerifyNewListingSectionWorksWell" />
+		</classes>
+	</test> -->
+
+	<!-- <test name="Reg_216_VerifyNewListingSectionWorksWell_WindowsIE">
+		<parameter name="dataProviderPath" value="data/Market_Trends/MarketTrendDataProvider.json" /> 
+		<classes> 
+			<class name="com.movoto.scripts.market.trends.Reg_216_VerifyNewListingSectionWorksWell"/> 	
+		</classes> 
+	</test> -->
+	<!-- <test name="Reg_216_VerifyNewListingSectionWorksWell_MACSafari">
+  <parameter name="dataProviderPath" value="data/Market_Trends/MarketTrendDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.market.trends.Reg_216_VerifyNewListingSectionWorksWell"/>
+    </classes>
+  </test>  -->
+    <!-- <test name="Reg_216_VerifyNewListingSectionWorksWell_AndroidWeb">
+  <parameter name="dataProviderPath" value="data/Market_Trends/MarketTrendDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.market.trends.Reg_216_VerifyNewListingSectionWorksWell"/>
+    </classes>
+  </test>  -->
+	<test name="Reg_216_VerifyNewListingSectionWorksWell_IOSSafari">
+  <parameter name="dataProviderPath" value="data/Market_Trends/MarketTrendDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.market.trends.Reg_216_VerifyNewListingSectionWorksWell"/>
+    </classes>
+  </test> 
+
+</suite> 
+ 
+ 

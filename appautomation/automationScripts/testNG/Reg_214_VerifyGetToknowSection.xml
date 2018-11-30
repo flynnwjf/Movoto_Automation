@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+
+   <!-- <test name="Reg_214_VerifyGetToKnowSection_AndroidChrome">
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_214_VerifyGetToKnowSection"/>
+    </classes>
+  </test>  --> 
+  
+<!--   <test name="Reg_214_VerifyGetToKnowSection_WindowsChrome">
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_214_VerifyGetToKnowSection"/>
+    </classes>
+  </test>   -->
+    <test name="Reg_214_VerifyNewListingsSection_IOSSafari">
+   <parameter name="dataProviderPath" value="data/Demographics/DemographicsDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.demographics.Reg_214_VerifyGetToKnowSection" />
+		</classes>
+	</test>  
+  
+<!--   <test name="Reg_214_VerifyGetToKnowSection_WindowsIE">
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_214_VerifyGetToKnowSection"/>
+    </classes>
+  </test>   -->
+  <!--      <test name="Reg_214_VerifyGetToKnowSection_MACSafari">
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_214_VerifyGetToKnowSection"/>
+    </classes>
+  </test> 
+  
+    <test name="Reg_214_VerifyGetToKnowSection">
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_214_VerifyGetToKnowSection"/>
+    </classes>
+  </test>  -->
+  
+</suite> 
+ 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	 <test name="ApiResponseTestingWithApp_Web">
+		<classes>
+			<class name="com.movoto.scripts.agent.ClientsDetailsTestingWithApi" />
+		</classes>
+	</test> 
+
+ 	 <test name="ApiResponseTestingWithApp">
+		<classes>
+			<class name="com.movoto.scripts.agent.ClientsDetailsTestingWithApi" />
+		</classes>
+	</test>  
+	 <test name="ApiResponseTestingWithApp_IOS">
+		<classes>
+			<class name="com.movoto.scripts.agent.ClientsDetailsTestingWithApi" />
+		</classes>
+	</test> 
+</suite>

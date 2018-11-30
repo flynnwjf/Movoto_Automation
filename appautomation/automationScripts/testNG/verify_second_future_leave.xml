@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+  <test name="Verify_Second_Future_Leave_Web">
+    <classes>
+      <class name="com.movoto.scripts.agent.FutureLeaveVerification"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

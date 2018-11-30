@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests">
+	
+    <listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	
+	<!-- <test name="Reg_91_PublicRecordsSection_MacSafari">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_91_PublicRecordsSection" />
+		</classes>
+	</test> -->
+	<!-- <<test name="Reg_91_PublicRecordsSection_WindowsChrome">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_91_PublicRecordsSection" />
+		</classes>
+	</test> -->
+	<!-- <test name="Reg_91_PublicRecordsSection_AndroidChrome">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_91_PublicRecordsSection" />
+		</classes>
+	</test> -->
+	<test name="Reg_91_PublicRecordsSection_IOSSafari">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_91_PublicRecordsSection" />
+		</classes>
+	</test>
+	<!-- <test name="Reg_91_PublicRecordsSection_WindowsIE">
+		<classes>
+			<class name="com.movoto.scripts.agent.Reg_91_PublicRecordsSection" />
+		</classes>
+	</test> -->
+</suite>

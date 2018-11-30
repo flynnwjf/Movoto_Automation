@@ -1,0 +1,97 @@
+{
+
+"HotLead":
+{
+"Header Key":"X-MData-Key",
+"Header Value":"CHUMAGATHUQ9VE7AYEBR",
+"X-MData-Key":"CHUMAGATHUQ9VE7AYEBR",
+"AcceptEncoding":"application/gzip",
+"ContentType":"application/json",
+"Host":"service.ng.movoto.net",
+"Connection":"Keep-Alive",
+"App-Url":"http://spider.san-mateo.movoto.net:3024/home/4622-sw-12th-pl-225-apt-225-cape-coral-fl-33914-438_217013714?r=1",
+"BasicInfo_API":"http://soa8-qa.ng.movoto.net/property/mlsPublicRecordAssociations/url?url=home/4622-sw-12th-pl-225-apt-225-cape-coral-fl-33914-438_217013714",
+"EstimateValue_API":"http://service.ng.movoto.net/property-analysis/property/avm",
+"PostBody":"62861d21-9949-44dc-a22f-b64b4c9efb1e",
+"LoginDataPath":"data/DPP",
+"Mail_ID":"kirankumaranin@gmail.com",
+"Contact Number":"1111111111",
+"Username":"kirankumaranin@gmail.com",
+"Password":"kirankumaranin1",
+"Common Disclaimer":"We'll call you in 5 minutes (or next business day if after hours). Click to consent to receive text messages and/or calls (direct, autodialed, or prerecorded) from Movoto to the number entered here even if it's on the Do Not Call list. Consent is not required to receive Real Estate services.",
+"Message Content":"I am interested in",
+"Name Of Visitor":"Kiran",
+"LogoutUrl":"http://spider.san-mateo.movoto.net:3024/logout/",
+}
+"NewListingsSection":
+{
+"UserAgent":"Apache-HttpClient/4.1.1",
+"X-MData-Key":"CHUMAGATHUQ9VE7AYEBR",
+"AcceptEncoding":"application/gzip",
+"LoginDataPath":"data/DPP",
+"ContentType":"application/json",
+"Host":"service.ng.movoto.net",
+"Connection":"Keep-Alive",
+"Username":"harishlimba76@gmail.com",
+"Password":"harishlimba76",
+"ContentType":"application/json",
+"NewListing_API":"http://soa8-qa.ng.movoto.net/property/listings/cityid/72878/new?size=9",
+"AppUrl":"http://spider.san-mateo.movoto.net:3024/vancouver-wa/15303-ne-76th-st-vancouver-wa-98682-491_16324830/for-sale/?r=1",
+"FavouriteUrl" : "http://www2.movoto.com/my-movoto/#/favorites",
+"LogoutUrl":"http://spider.san-mateo.movoto.net:3024/logout/",
+"BasicInfo_API":"http://soa8-qa.ng.movoto.net/school/baseInfo?id=550852000373",
+"NewListingsNearby_API":"http://soa8-qa.ng.movoto.net/property/listings/cityid/25437/new?size=10",
+"NewListUrl":"/98682/new-7/",
+}
+"ActionButton":
+{
+"X-MData-Key":"CHUMAGATHUQ9VE7AYEBR",
+"AcceptEncoding":"application/gzip",
+"ContentType":"application/json",
+"Host":"service.ng.movoto.net",
+"Connection":"Keep-Alive",
+"ActionButton_API":"http://soa8-qa.ng.movoto.net/property/mlsPublicRecordAssociations/url?url=home/101-s-sewalls-point-rd-stuart-fl-34996-435_rx-10225172",
+"Username":"kirankumaranin@gmail.com",
+"Password":"kirankumaranin1",
+"App-Url":"http://spider.san-mateo.movoto.net:3024/home/101-s-sewalls-point-rd-stuart-fl-34996-435_rx-10225172?r=1",
+"TestCaseUrl":"http://spider.san-mateo.movoto.net:3024/my-movoto/favorites/",
+"LogoutUrl":"http://spider.san-mateo.movoto.net:3024/logout/",
+"EmailPopUpYourName":"movoto user",
+"EmailPopUpFriendEmail":"Autotest@movoto.com",
+}
+"PointOfInterest":
+{
+"Header Key":"X-MData-Key",
+"Header Value":"CHUMAGATHUQ9VE7AYEBR",
+"X-MData-Key":"CHUMAGATHUQ9VE7AYEBR",
+"AcceptEncoding":"application/gzip",
+"ContentType":"application/json",
+"Host":"service.ng.movoto.net",
+"Connection":"Keep-Alive",
+"App-Url":"http://spider.san-mateo.movoto.net:3024/home/101-s-sewalls-point-rd-stuart-fl-34996-435_rx-10225172/?r=1",
+"POI_API":"http://soa8-qa.ng.movoto.net/poi/latlng/27.189345,-80.193116/radius/2/places",
+"LoginDataPath":"data/DPP",
+"Username":"kirankumaranin@gmail.com",
+"Password":"kirankumaranin1",
+"LogoutUrl":"http://spider.san-mateo.movoto.net:3024/logout/",
+}
+"RecentlyViewsection":
+{
+"X-MData-Key":"CHUMAGATHUQ9VE7AYEBR",
+"apiUrl":"http://soa8-qa.ng.movoto.net/property/mlsPublicRecordAssociations/url?url=",
+"reloadUrl":"http://spider.san-mateo.movoto.net:3024/madison-wi/?r=1",
+}
+"ContactAgentHotLeadWorks":
+{
+"Email":"testUser@mailinator.com",
+"Name":"test user",
+"Phone_Number":"123-456-7890",
+}
+"PropertyHistorySection":
+{
+"Header_Key":"X-MData-Key",
+"Header_Value":"CHUMAGATHUQ9VE7AYEBR",
+"API":"http://soa8-qa.internal.ng.movoto.net/property/properties/75c69764-c8cb-4f19-a24e-e96fc5e55f65/histories",
+"LoginDataPath":"data/DPP"
+}
+}

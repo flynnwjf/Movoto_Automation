@@ -1,0 +1,16 @@
+
+{
+	"TestEnv":
+	{
+		"WebSite":"http://www2.movoto.com/",
+		"API":"http://service.ng.movoto.net/",
+		"DATABASE":""
+	},
+  "Report":
+	{
+		"STEP_SCREENSHOT_ENABLED":false,
+		"ASSERT_SCREENSHOT_ENABLED":true,
+		"Email2Addresses":
+		["",""]
+		｝
+}

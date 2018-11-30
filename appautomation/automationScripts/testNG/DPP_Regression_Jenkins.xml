@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Main Suite" verbose="1" annotations="JDK"
+	suitThreadPoolSize="5">
+	<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	<suite-files>
+		<suite-file path="Reg_68.xml"></suite-file>
+		<suite-file path="Reg_69.xml"></suite-file>
+		<suite-file path="Reg_71.xml"></suite-file>
+		<suite-file path="Reg_73.xml"></suite-file>
+		<suite-file path="Reg_74.xml"></suite-file>
+		<suite-file path="Reg_75.xml"></suite-file>
+		<suite-file path="Reg_78.xml"></suite-file>
+		<suite-file path="Reg_79.xml"></suite-file>
+		<suite-file path="Reg_84.xml"></suite-file>
+		<suite-file path="Reg_88.xml"></suite-file>
+		<suite-file path="Reg_91.xml"></suite-file>
+	</suite-files>
+</suite>

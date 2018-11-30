@@ -1,0 +1,52 @@
+{
+	"notifications": [
+		{
+			"notificationId": "f2dffa2c-2ce2-4a91-bd22-f2f6139ef2a6",
+			"to": "agentautomationtest2@movoto.com",
+			"notificationType": "FC5",
+			"notificationParams": [
+				{
+					"key": "agentId",
+					"value": "11a81726-17ab-4c52-82f4-0acbf29ff8ce"
+				},
+				{
+					"key": "clientId",
+					"value": "62123524-c886-4c51-9d4a-845ca13804b8"
+				}, 
+				{
+					"key": "price",
+					"value": "100000"
+				},
+				{
+					"key": "cityname",
+					"value": "San Mateo"
+				}, 
+				{
+					"key": "zipcode",
+					"value": "94404"
+				},
+				{
+					"key": "leadOpportunityId",
+					"value": "0000006974"
+				},
+				{
+					"key": "clientEmail",
+					"value": "vicky5465@hotmail.com"
+				},
+				{
+					"key": "clientPhone",
+					"value": "8581234565"
+				},
+				{
+					"key": "clientFirstName",
+					"value": "TestFirst"
+				},
+				{
+					"key": "clientLastName",
+					"value": "TestLast"
+				}
+			]
+		}
+
+	]
+}

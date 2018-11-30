@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <listeners>
+  <listener class-name="com.movoto.helper.CustomReporter" />
+ </listeners>
+ 
+
+ <!--  <test name="Reg_103_VerifyThatSchoolsBasicInfoDisplay_WindowsIE">
+     <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_103_VerifyThatSchoolsBasicInfoDisplay"/>
+    </classes>
+     </test>  
+      <test name="Reg_103_VerifyThatSchoolsBasicInfoDisplay_WindowsChrome">
+     <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_103_VerifyThatSchoolsBasicInfoDisplay"/>
+    </classes>
+     </test> -->
+     <!--   <test name="Reg_105_VerifyThatTestScoresSectionWorks_WindowsChrome">
+  <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json" />
+  <classes>
+   <class  name="com.movoto.scripts.dsp.Reg_105_VerifyThatTestScoresSectionWorks" />
+  </classes>
+     </test> -->
+     <test name="Reg_105_VerifyThatTestScoresSectionWorks_WindowsIE"> 
+            <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json" /> 
+            <classes> 
+           <class name="com.movoto.scripts.dsp.Reg_105_VerifyThatTestScoresSectionWorks" /> 
+        </classes> 
+     </test>  
+      <test name="Reg_106_VerifyThatReviewsSection_WindowsChrome">
+  <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_106_VerifyThatReviewsSection"/>
+    </classes>
+  </test> 
+     
+     <!--  <test name="Reg_106_VerifyThatReviewsSection_WindowsIE">
+    <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_106_VerifyThatReviewsSection"/>
+    </classes>
+  </test> --> 
+   <!-- <test name="Reg_108_VerifyNearbySchoolSection_WindowsIE">
+  <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_108_VerifyNearbySchoolSection"/>
+    </classes>
+  </test> 
+    
+    <test name="Reg_108_VerifyNearbySchoolSection_WindowsChrome">
+  <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_108_VerifyNearbySchoolSection"/>
+    </classes>
+  </test> 
+  
+ <test name="Reg_110_VerifyPropertiesAssignedToSchoolSectionWorks_WindowsIE"> 
+  <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json" />
+   <classes>
+    <class name="com.movoto.scripts.dsp.Reg_110_VerifyPropertiesAssignedToSchoolSectionWorks" /> 
+    </classes>
+     </test>
+    <test name="Reg_110_VerifyPropertiesAssignedToSchoolSectionWorks_WindowsChrome"> 
+  <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json" />
+   <classes> 
+   <class name="com.movoto.scripts.dsp.Reg_110_VerifyPropertiesAssignedToSchoolSectionWorks" /> 
+   </classes>
+    </test> 
+      <test name="Reg_208_VerifyOpenHouseSectionWorks_WindowsIE"> 
+  <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json" /> 
+  <classes> 
+  <class name="com.movoto.scripts.dsp.Reg_208_VerifyOpenHouseSectionWorks" /> 
+  </classes>
+  </test>
+  <test name="Reg_208_VerifyOpenHouseSectionWorks_WindowsChrome"> 
+  <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json" />
+   <classes>
+    <class name="com.movoto.scripts.dsp.Reg_208_VerifyOpenHouseSectionWorks" />
+     </classes>
+  </test>   -->
+   <test name="Reg_207_VerifyNewListingsSectionWorksWell_WindowsIE">
+      <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_207_VerifyNewListingsSectionWorksWell"/>
+    </classes>
+  </test>  
+   <test name="Reg_207_VerifyNewListingsSectionWorksWell_WindowsChrome">
+  <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_207_VerifyNewListingsSectionWorksWell"/>
+    </classes>
+  </test> 
+  <test name="Reg_234_VerifyGetToKnowSection_WindowsIE">
+   <parameter name="dataProviderPath" value="data/Demographics/DemographicsDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.dsp.Reg_234_VerifyGetToKnowSection" />
+		</classes>
+	</test>
+	 <test name="Reg_234_VerifyGetToKnowSection_WindowsChrome">
+   <parameter name="dataProviderPath" value="data/Demographics/DemographicsDataProvider.json"/>
+		<classes>
+			<class name="com.movoto.scripts.dsp.Reg_234_VerifyGetToKnowSection" />
+		</classes>
+	</test> 
+  
+
+  
+</suite> <!-- Suite -->

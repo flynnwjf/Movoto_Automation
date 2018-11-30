@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+
+<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+
+  <test name="Reg_199_DifferentViews_AndroidChrome">
+<parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+  		<classes>
+   			<class name="com.movoto.scripts.agent.Reg_199_DifferentViews" />
+   		</classes>
+	</test> 
+  <!-- <test name="Reg_199_DifferentViews_WindowsChrome">
+     <parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_199_DifferentViews"/>
+    </classes>
+  </test>  -->
+ <!--  <test name="Reg_199_DifferentViews_WindowsIE">
+<parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_199_DifferentViews"/>
+    </classes>
+  </test> --> 
+ <!-- <test name="Reg_199_DifferentViews_MACSafari">
+    <parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_199_DifferentViews"/>
+    </classes>
+  </test>  -->
+  <!-- <test name="Reg_199_DifferentViews_IOSSafari">
+    <parameter name="dataProviderPath" value="data/Map_Search/MapDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_199_DifferentViews"/>
+    </classes>
+  </test> -->
+</suite> <!-- Suite -->

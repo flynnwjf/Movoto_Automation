@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+     <listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+  <test name="Notification_Test">
+    <classes>
+      <class name="com.movoto.scripts.agent.FC025NotificationTest"/>
+    </classes>
+  </test>
+<!-- <test name="Notification_Test_IOS">
+     <classes>
+      <class name="com.movoto.scripts.agent.FC025Notification_Test_IOS"/>
+    </classes>  
+ </test>    -->
+</suite> <!-- Suite -->

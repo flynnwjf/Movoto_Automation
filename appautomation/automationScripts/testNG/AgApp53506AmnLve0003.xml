@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+  <test name="AgApp53506AmnLve0003_web">
+		<classes>
+			<class name="com.movoto.scripts.agent.AgApp53506AmnLve0003" />
+		</classes>
+	</test>   
+  <test name="AgApp53506AmnLve0003_IOS">
+		<classes>
+			<class name="com.movoto.scripts.agent.AgApp53506AmnLve0003" />
+		</classes>
+	</test>   
+   <test name="AgApp53506AmnLve0003_ANDROID">
+		<classes>
+			<class name="com.movoto.scripts.agent.AgApp53506AmnLve0003" />
+		</classes>
+	</test>    
+</suite> <!-- Suite -->

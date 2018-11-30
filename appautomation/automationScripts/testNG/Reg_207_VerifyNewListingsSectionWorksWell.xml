@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	
+	  <!--  <test name="Reg_207_VerifyNewListingsSectionWorksWell_WindowsIE">
+      <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_207_VerifyNewListingsSectionWorksWell"/>
+    </classes>
+  </test>   -->
+  
+   
+    <!--  <test name="Reg_207_VerifyNewListingsSectionWorksWell_AndroidWeb">
+  <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_207_VerifyNewListingsSectionWorksWell"/>
+    </classes>
+  </test>  -->   
+	
+     <!-- <test name="Reg_207_VerifyNewListingsSectionWorksWell_WindowsChrome">
+  <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_207_VerifyNewListingsSectionWorksWell"/>
+    </classes>
+  </test>  -->
+   <!-- <test name="Reg_207_VerifyNewListingsSectionWorksWell_MACSafari">
+  <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_207_VerifyNewListingsSectionWorksWell"/>
+    </classes>
+  </test>  -->
+  <test name="Reg_207_VerifyNewListingsSectionWorksWell_IOSSafari">
+  <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_207_VerifyNewListingsSectionWorksWell"/>
+    </classes>
+  </test>
+  
+	 
+</suite> <!-- Suite -->

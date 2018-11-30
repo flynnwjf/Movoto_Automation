@@ -1,0 +1,11 @@
+{
+	"APIDomain":"http://2.client.soa.es.ng.movoto.net:9200/",
+	"CommonHeaders":{
+	"X-MData-Key":"CHUMAGATHUQ9VE7AYEBR"
+	},
+
+	"NearBySearchByLocation":{
+		"URI":"listings_nearby_www3_v1/listing/_search",
+		"Method":"POST"
+	}
+}

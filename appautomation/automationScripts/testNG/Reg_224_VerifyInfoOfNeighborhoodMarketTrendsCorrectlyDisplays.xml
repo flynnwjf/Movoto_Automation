@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+
+	<!-- <test name="Reg_224_VerifyInfoOfNeighborhoodMarketTrendsCorrectlyDisplays_AndroidChrome"> 
+		<parameter name="dataProviderPath" value="data/Market_Trends/MarketTrendDataProvider.json" 
+		/> <classes> <class name="com.movoto.scripts.market.trends.Reg_224_NeighborhoodMarketTrendsCorrectlyDisplays" 
+		/> </classes> </test> -->
+
+	<!-- <test name="Reg_224_NeighborhoodMarketTrendsCorrectlyDisplays_WindowsChrome">
+		<parameter name="dataProviderPath"
+			value="data/Market_Trends/MarketTrendDataProvider.json" />
+		<classes>
+			<class
+				name="com.movoto.scripts.market.trends.Reg_224_NeighborhoodMarketTrendsCorrectlyDisplays" />
+		</classes>
+	</test> -->
+
+
+	<!-- <test name="Reg_224_NeighborhoodMarketTrendsCorrectlyDisplays_WindowsIE"> 
+		<parameter name="dataProviderPath" value="data/Market_Trends/MarketTrendDataProvider.json" 
+		/> <classes> <class name="com.movoto.scripts.market.trends.Reg_224_NeighborhoodMarketTrendsCorrectlyDisplays" 
+		/> </classes> </test> -->
+		
+		<!-- <test name="Reg_224_NeighborhoodMarketTrendsCorrectlyDisplays_MacSafari"> 
+		<parameter name="dataProviderPath" value="data/Market_Trends/MarketTrendDataProvider.json" 
+		/> <classes> <class name="com.movoto.scripts.market.trends.Reg_224_NeighborhoodMarketTrendsCorrectlyDisplays" 
+		/> </classes> </test> -->
+		
+		<test name="Reg_224_NeighborhoodMarketTrendsCorrectlyDisplays_IOSSafari"> 
+		<parameter name="dataProviderPath" value="data/Market_Trends/MarketTrendDataProvider.json" 
+		/> <classes> <class name="com.movoto.scripts.market.trends.Reg_224_NeighborhoodMarketTrendsCorrectlyDisplays" 
+		/> </classes> </test>
+</suite> 
+ 
+ 

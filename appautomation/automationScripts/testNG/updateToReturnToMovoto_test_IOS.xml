@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="5">
+    <listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+  <test name="AmnAct0009_updateToReturnToMovoto_Test_IOS">
+    <classes>
+      <class name="com.movoto.scripts.agent.updateToReturnToMovoto"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
+

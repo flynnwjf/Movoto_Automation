@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+ <test name="ClientList_Test_web">
+		<classes>
+			<class name="com.movoto.scripts.agent.ClientList" />
+		</classes>
+	</test> 
+<test name="ClientList_Test_IOS">
+		<classes>
+			<class name="com.movoto.scripts.agent.ClientList" />
+		</classes>
+	</test> 
+ <test name="ClientList_Test">
+		<classes>
+			<class name="com.movoto.scripts.agent.ClientList" />
+		</classes>
+	</test>  
+</suite> <!-- Suite -->

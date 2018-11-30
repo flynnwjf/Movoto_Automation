@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Main Suite" verbose="1" annotations="JDK">
+<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+</listeners>
+<suite-files>
+<suite-file path="AmnAct0001_UpdateUrgencyForTalkedStage.xml"></suite-file>
+<suite-file path="AmnAct0002_ActivitySelectionListForMetStage.xml"></suite-file>
+<suite-file path="AmnAct0003-6-7-8-9_Activities_workflow_suite.xml"></suite-file>
+<suite-file path="AmnAct0004_UpdateTransactionForMetStage.xml"></suite-file>
+<suite-file path="AmnAct0005_Activity_Schedule_meeting_for_talked_Stage.xml"></suite-file>
+
+
+</suite-files>
+</suite>

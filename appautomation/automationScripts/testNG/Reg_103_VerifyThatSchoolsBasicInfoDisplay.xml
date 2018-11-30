@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	
+
+	<!--  <test name="Reg_103_VerifyThatSchoolsBasicInfoDisplay_WindowsIE">
+     <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_103_VerifyThatSchoolsBasicInfoDisplay"/>
+    </classes>
+     </test>   -->
+	<test name="Reg_103_VerifyThatSchoolsBasicInfoDisplay_WindowsChrome">
+  	<parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_103_VerifyThatSchoolsBasicInfoDisplay"/>
+    </classes>
+  	</test>
+
+   <!--  <test name="Reg_103_VerifyThatSchoolsBasicInfoDisplay_AndroidChrome">
+  <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_103_VerifyThatSchoolsBasicInfoDisplay"/>
+    </classes>
+  </test>  -->  
+       
+ <!--  <test name="Reg_103_VerifyThatSchoolsBasicInfoDisplay_MacSafari">
+  <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_103_VerifyThatSchoolsBasicInfoDisplay"/>
+    </classes>
+  </test>  --> 
+<!--     <test name="Reg_103_VerifyThatSchoolsBasicInfoDisplay_IOSSafari">
+     <parameter name="dataProviderPath" value="data/DSP/DSPDataProvider.json"/>
+    <classes>
+      <class name="com.movoto.scripts.dsp.Reg_103_VerifyThatSchoolsBasicInfoDisplay"/>
+    </classes>
+  </test>  -->
+</suite> <!-- Suite -->

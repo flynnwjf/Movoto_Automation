@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+<listeners>
+		<listener class-name="com.movoto.helper.CustomReporter" />
+	</listeners>
+	<!--    <test name="Reg_200_FilterFunctionality_WindowsIE">
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_200_FilterFunctionality"/>
+    </classes>
+
+  </test> 
+   <test name="Reg_200_FilterFunctionality_WindowsChrome">
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_200_FilterFunctionality"/>
+    </classes> 
+    </test> -->
+	  <!--  <test name="Reg_200_FilterFunctionality_MACSafari">
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_200_FilterFunctionality"/>
+    </classes>
+  </test> -->
+   
+       <test name="Reg_200_FilterFunctionality_AndroidChrome">
+
+    <classes>
+      <class name="com.movoto.scripts.agent.Reg_200_FilterFunctionality"/>
+    </classes>
+
+  </test> 
+  
+   
+   <!-- <test name="Reg_200_FilterFunctionality_IOSSafari">
+	<classes>								
+      <class name="com.movoto.scripts.agent.Reg_200_FilterFunctionality"/>
+    </classes>
+ </test> --> 
+
+   
+</suite> <!-- Suite -->

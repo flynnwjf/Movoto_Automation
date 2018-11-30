@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true" automaticImage="PDF">  
+  <object id="1" language="java" name="com.movoto.tests.ClickTest" project="automationLibrary" 
+    file="/automationLibrary/src/test/java/com/movoto/tests/ClickTest.java" binary="false" label="clickTest" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="13" y="0"/>    
+    <execution id="2">      
+      <position height="63" width="84" x="5" y="105"/>    
+    </execution>    
+    <execution id="5">      
+      <position height="21" width="84" x="5" y="1072"/>    
+    </execution>    
+    <execution id="6">      
+      <position height="63" width="84" x="5" y="1117"/>    
+    </execution>    
+    <execution id="9">      
+      <position height="21" width="84" x="5" y="1468"/>    
+    </execution>  
+  </object>  
+  <object id="10" language="java" name="com.movoto.api.FixtureLibraryFactory" project="automationLibrary" 
+    file="/automationLibrary/src/main/java/com/movoto/api/FixtureLibraryFactory.java" binary="false" 
+    label="fixtureLibraryFactory" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="54" y="0"/>    
+    <execution id="11">      
+      <position height="63" width="144" x="5" y="191"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="21" width="144" x="5" y="1024"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="21" width="144" x="93" y="126"/>    
+    </execution>    
+    <execution id="15">      
+      <position height="63" width="144" x="93" y="1051"/>    
+    </execution>  
+  </object>  
+  <object id="17" language="java" name="com.movoto.context.ConfigurationManager" project="automationLibrary" 
+    file="/automationLibrary/src/main/java/com/movoto/context/ConfigurationManager.java" binary="false" 
+    label="configurationManager" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="176" y="0"/>    
+    <execution id="13">      
+      <position height="21" width="149" x="153" y="212"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="63" width="149" x="153" y="255"/>    
+    </execution>    
+    <execution id="21">      
+      <position height="21" width="149" x="153" y="344"/>    
+    </execution>    
+    <execution id="22">      
+      <position height="63" width="149" x="153" y="373"/>    
+    </execution>    
+    <execution id="25">      
+      <position height="21" width="149" x="153" y="970"/>    
+    </execution>    
+    <execution id="26">      
+      <position height="63" width="149" x="153" y="1003"/>    
+    </execution>  
+  </object>  
+  <object id="28" language="java" name="com.movoto.data.imp.DataManagerImpl" project="automationLibrary" 
+    file="/automationLibrary/src/main/java/com/movoto/data/imp/DataManagerImpl.java" binary="false" 
+    label="dataManagerImpl" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="279" y="0"/>    
+    <execution id="20">      
+      <position height="21" width="123" x="306" y="276"/>    
+    </execution>    
+    <execution id="29">      
+      <position height="63" width="123" x="306" y="323"/>    
+    </execution>  
+  </object>  
+  <object id="31" language="java" name="com.movoto.fixtures.impl.FixtureLibraryImpl" project="automationLibrary" 
+    file="/automationLibrary/src/main/java/com/movoto/fixtures/impl/FixtureLibraryImpl.java" binary="false" 
+    label="fixtureLibraryImpl" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="477" y="0"/>    
+    <execution id="24">      
+      <position height="21" width="126" x="433" y="394"/>    
+    </execution>    
+    <execution id="32">      
+      <position height="63" width="126" x="433" y="425"/>    
+    </execution>    
+    <execution id="35">      
+      <position height="21" width="126" x="433" y="671"/>    
+    </execution>    
+    <execution id="36">      
+      <position height="63" width="126" x="433" y="718"/>    
+    </execution>    
+    <execution id="39">      
+      <position height="21" width="126" x="433" y="811"/>    
+    </execution>    
+    <execution id="40">      
+      <position height="63" width="126" x="433" y="846"/>    
+    </execution>    
+    <execution id="43">      
+      <position height="21" width="126" x="433" y="923"/>    
+    </execution>    
+    <execution id="44">      
+      <position height="63" width="126" x="433" y="949"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="21" width="126" x="521" y="1138"/>    
+    </execution>    
+    <execution id="46">      
+      <position height="63" width="126" x="521" y="1173"/>    
+    </execution>    
+    <execution id="49">      
+      <position height="21" width="126" x="521" y="1422"/>    
+    </execution>    
+    <execution id="50">      
+      <position height="63" width="126" x="521" y="1447"/>    
+    </execution>  
+  </object>  
+  <object id="52" language="java" name="com.movoto.fixtures.impl.wd.DriverFixtureManager" project="automationLibrary" 
+    file="/automationLibrary/src/main/java/com/movoto/fixtures/impl/wd/DriverFixtureManager.java" binary="false" 
+    label="driverFixtureManager" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="580" y="0"/>    
+    <execution id="34">      
+      <position height="21" width="146" x="563" y="446"/>    
+    </execution>    
+    <execution id="53">      
+      <position height="63" width="146" x="563" y="650"/>    
+    </execution>    
+    <execution id="55">      
+      <position height="63" width="146" x="651" y="499"/>    
+    </execution>    
+    <execution id="58">      
+      <position height="21" width="146" x="651" y="598"/>    
+    </execution>  
+  </object>  
+  <object id="59" language="java" name="com.movoto.fixtures.impl.ws.WebServiceFixtureManager" 
+    project="automationLibrary" 
+    file="/automationLibrary/src/main/java/com/movoto/fixtures/impl/ws/WebServiceFixtureManager.java" binary="false" 
+    label="webServiceFixtureManager" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="806" y="0"/>    
+    <execution id="38">      
+      <position height="21" width="181" x="713" y="739"/>    
+    </execution>    
+    <execution id="60">      
+      <position height="63" width="181" x="713" y="790"/>    
+    </execution>  
+  </object>  
+  <object id="62" language="java" name="com.movoto.fixtures.impl.util.UtilityFixturesImpl" project="automationLibrary" 
+    file="/automationLibrary/src/main/java/com/movoto/fixtures/impl/util/UtilityFixturesImpl.java" binary="false" 
+    label="utilityFixturesImpl" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="880" y="0"/>    
+    <execution id="42">      
+      <position height="21" width="130" x="898" y="867"/>    
+    </execution>    
+    <execution id="63">      
+      <position height="63" width="130" x="898" y="902"/>    
+    </execution>  
+  </object>  
+  <object id="65" language="java" name="com.movoto.fixtures.impl.wd.AndroidDriverFixturesImpl" 
+    project="automationLibrary" 
+    file="/automationLibrary/src/main/java/com/movoto/fixtures/impl/wd/AndroidDriverFixturesImpl.java" binary="false" 
+    label="androidDriverFixturesImpl" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="818" y="0"/>    
+    <execution id="57">      
+      <position height="21" width="171" x="1120" y="520"/>    
+    </execution>    
+    <execution id="48">      
+      <position height="21" width="171" x="1120" y="1194"/>    
+    </execution>    
+    <execution id="66">      
+      <position height="63" width="171" x="1120" y="1401"/>    
+    </execution>    
+    <execution id="68">      
+      <position height="84" width="171" x="1120" y="1308"/>    
+    </execution>    
+    <execution id="70">      
+      <position height="21" width="171" x="1120" y="1350"/>    
+    </execution>    
+    <execution id="71">      
+      <position height="84" width="171" x="1120" y="1222"/>    
+    </execution>    
+    <execution id="73">      
+      <position height="21" width="171" x="1120" y="1264"/>    
+    </execution>    
+    <execution id="74">      
+      <position height="63" width="171" x="1120" y="577"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="getLibrary(java.lang.String):com.movoto.api.FixtureLibrary" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="7" operation="click(java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="12" operation="createContext(java.lang.String):com.movoto.fixtures.impl.FixtureLibraryImpl" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="16" operation="startTest(org.testng.ITestContext):void" asynchronous="false">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="5"/>  
+  </message>  
+  <message id="19" operation="populateTestDataForTest(java.lang.String):com.movoto.data.TestDTO" asynchronous="false">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="23" operation="FixtureLibraryImpl(com.movoto.data.TestDTO)" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="27" operation="getLibrary(java.lang.String):com.movoto.api.FixtureLibrary" asynchronous="false">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="30" operation="readConfiguration(java.lang.String):com.movoto.data.TestDTO" asynchronous="false">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="33" operation="getDriverFixtures(com.movoto.data.TestDTO):com.movoto.fixtures.DriverFixtures" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="34"/>  
+  </message>  
+  <message id="37" operation="getWebServicesFixtures(com.movoto.data.TestDTO):com.movoto.fixtures.WebServicesFixtures" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="38"/>  
+  </message>  
+  <message id="41" operation="UtilityFixturesImpl(com.movoto.data.TestDTO)" asynchronous="false">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="42"/>  
+  </message>  
+  <message id="45" operation="createContext(java.lang.String):com.movoto.fixtures.impl.FixtureLibraryImpl" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="25"/>  
+  </message>  
+  <message id="47" operation="click(java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="48"/>  
+  </message>  
+  <message id="51" operation="clickTest():void" asynchronous="false">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="9"/>  
+  </message>  
+  <message id="54" operation="FixtureLibraryImpl(com.movoto.data.TestDTO)" asynchronous="false">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="35"/>  
+  </message>  
+  <message id="56" operation="AndroidDriverFixturesImpl(org.openqa.selenium.WebDriver,com.movoto.data.TestDTO)" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="57"/>  
+  </message>  
+  <message id="61" operation="FixtureLibraryImpl(com.movoto.data.TestDTO)" asynchronous="false">    
+    <end type="SOURCE" refId="60"/>    
+    <end type="TARGET" refId="39"/>  
+  </message>  
+  <message id="64" operation="FixtureLibraryImpl(com.movoto.data.TestDTO)" asynchronous="false">    
+    <end type="SOURCE" refId="63"/>    
+    <end type="TARGET" refId="43"/>  
+  </message>  
+  <message id="67" operation="click(java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="66"/>    
+    <end type="TARGET" refId="49"/>  
+  </message>  
+  <message id="69" operation="getElement(com.movoto.data.imp.Locator):org.openqa.selenium.WebElement" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="70"/>  
+  </message>  
+  <message id="72" operation="getLocator(java.lang.String):com.movoto.data.imp.Locator" asynchronous="false">    
+    <end type="SOURCE" refId="71"/>    
+    <end type="TARGET" refId="73"/>  
+  </message>  
+  <message id="75" operation="getDriverFixtures(com.movoto.data.TestDTO):com.movoto.fixtures.DriverFixtures" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="74"/>    
+    <end type="TARGET" refId="58"/>  
+  </message>
+</sequence-diagram>

@@ -1,0 +1,518 @@
+{
+  "siteMapTest":
+  {
+    "domain":"http://www2.movoto.com/",
+    "testStates":["ak","al","ar","az","ca","co","ct","dc","de","fl","ga","hi","ia","id","il","in","ks","ky","la","ma","md","me","mi","mn","mo","ms","mt","nc","nd","ne","nh","nj","nm","nv","ny","oh","ok","or","pa","ri","sc","sd","tn","tx","ut","va","vt","wa","wi","wv","wy"],
+    "siteMapPages":
+    [
+      {
+       "pageName":"MarketTrend_Home",
+       "uri":"market-trends/",
+       "API":
+       {
+         "apiName":"StatesAPI",
+         "BuildMethod":["PlaceIntoAGroupAndShowNoneHideState"]
+       },
+       "ExpectedResults":
+       [
+         {
+           "ListedItems":
+           [
+             {
+                 "Text": "%s Real Estate Market,$.items.displayName",
+                 "URL": "http://www2.movoto.com/%s,$.items.stateStatisticsPageUrl"
+             }
+
+           ],
+           "Title": "Or Browse By Market Area"
+
+         }
+       ]
+      },
+      {
+       "pageName":"Demographics_Home",
+       "uri":"demographics/",
+       "API":
+       {
+         "apiName":"StatesAPI",
+         "BuildMethod":["PlaceIntoAGroupAndShowNoneHideState"]
+       },
+       "ExpectedResults":
+       [
+         {
+           "ListedItems":
+           [
+             {
+                 "Text": "%s Demographics,$.items.displayName",
+                 "URL": "http://www2.movoto.com/%s,$.items.stateDemographicsPageUrl"
+             }
+
+           ],
+           "Title": "Browse by Demographic Area"
+
+         }
+       ]
+      },
+      {
+       "pageName":"Schools_Home",
+       "uri":"schools/",
+       "API":
+       {
+         "apiName":"StatesAPI",
+         "BuildMethod":["PlaceIntoAGroupAndShowNoneHideState"]
+       },
+       "ExpectedResults":
+       [
+         {
+           "ListedItems":
+           [
+             {
+                 "Text": "%s Schools,$.items.displayName",
+                 "URL": "http://www2.movoto.com/%s/schools/,$.items.nameForUrl"
+             }
+
+           ],
+           "Title": "Browse By School Area"
+
+         }
+       ]
+      },
+      {
+       "pageName":"MarketTrend_Cities",
+       "uri":"%s/market-trends/",
+       "API":
+       {
+         "apiName":"SpecificStateAPI",
+         "Parameters4URI":
+         {
+           "state":"{one of testStates}"
+         },
+         "BuildMethod":["GroupByLetters","GroupByLettersExcludingCounty"]
+       },
+        "testState":"ak",
+        "ExpectedResults":
+        [
+          {
+         "ListedItems":
+         [
+           {
+               "Text": "%s Market Trends,$..items.abbreviation",
+               "URL": "http://www2.movoto.com/%s,$..items.cityStatisticsPageUrl"
+           }
+
+         ],
+         "Title": "\"%s\" Cities in %s,$.letter,$.stateName"
+
+        }
+        ]
+      },
+      {
+       "pageName":"Demographics_Cities",
+       "uri":"%s/demographics/",
+       "API":
+       {
+         "apiName":"SpecificZipCodes4StateAPI",
+         "Parameters4URI":
+         {
+           "state":"{one of testStates}"
+         },
+         "BuildMethod":["GroupByZipcodesExcludingCounty"]
+       },
+        "testState":"ak",
+        "ExpectedResults":
+        [
+          {
+            "ListedItems":
+            [
+              {
+                  "Text": "%s Demographics,$.items.abbreviation",
+                  "URL": "http://www2.movoto.com/%s,$.demographicsPageUrl"
+              }
+
+            ],
+            "Title": "\"%sxx\" Zip codes in %s,$.zipcodePatern,$.stateName"
+
+          }
+        ]
+      },
+      {
+       "pageName":"Listings_Cities",
+       "uri":"sitemap/%s/",
+       "API":
+       {
+         "apiName":"SpecificStateAPIWithBoroughs",
+         "Parameters4URI":
+         {
+           "state":"{one of testStates}"
+         },
+         "BuildMethod":["ListingCityWithCountNotZero4NoneCounty"]
+       },
+       "testState":"ak",
+       "ExpectedResults":
+       {
+         "ListedItems":
+         [
+           {
+               "Text": "%s Real Estate (%s),$.items.abbreviation,$.items.listingCount",
+               "URL": "http://www2.movoto.com/%s,$.items.sitemapCityPropertyPageUrl"
+           }
+
+         ],
+         "Title": "Top %s Real Estate Cities,$.stateName"
+       }
+      },
+      {
+       "pageName":"Schools_Cities",
+       "uri":"%s/schools/",
+       "API":
+       {
+         "apiName":"SpecificStateAPI",
+         "Parameters4URI":
+         {
+           "state":"{one of testStates}"
+         },
+         "BuildMethod":["AddSchoolsCountExcluding0AndCounty","GroupByLetters"]
+       },
+        "testState":"ak",
+        "ExpectedResults":
+        [
+          {
+            "ListedItems":
+            [
+              {
+                  "Text": "%s Schools,$.items.abbreviation",
+                  "URL": "http://www2.movoto.com/%s,$.items.sitemapCitySchoolPageUrl"
+              }
+
+            ],
+            "Title": "\"%s\" Cities in %s,$.letter,$.stateName"
+
+          }
+        ]
+      },
+      {
+       "pageName":"Listings_Home",
+       "uri":"property-search/",
+       "API":
+       {
+         "apiName":"StatesAPI",
+         "BuildMethod":["PlaceIntoAGroupAndShowNoneHideState"]
+       },
+       "ExpectedResults":
+       [
+         {
+           "ListedItems":
+           [
+             {
+                 "Text": "%s Real Estate,$.items.displayName",
+                 "URL": "http://www2.movoto.com/%s,$.items.sitemapCityListForStatePageUrl"
+             }
+
+           ],
+           "Title": "Browse Real Estate by State"
+
+         },
+         {
+           "ListedItems":
+           [
+             {
+               "Text": "Atlanta Homes for Sale",
+               "URL": "http://www2.movoto.com/atlanta-ga/"
+             },
+             {
+               "Text": "Austin Homes for Sale",
+               "URL": "http://www2.movoto.com/austin-tx/"
+             },
+             {
+               "Text": "Albuquerque Homes for Sale",
+               "URL": "http://www2.movoto.com/albuquerque-nm/"
+             },
+             {
+               "Text": "Baltimore Homes for Sale",
+               "URL": "http://www2.movoto.com/baltimore-md/"
+             },
+             {
+               "Text": "Birmingham Homes for Sale",
+               "URL": "http://www2.movoto.com/birmingham-al/"
+             },
+             {
+               "Text": "Boca Raton Homes for Sale",
+               "URL": "http://www2.movoto.com/boca-raton-fl/"
+             },
+             {
+               "Text": "Brooklyn Homes for Sale",
+               "URL": "http://www2.movoto.com/brooklyn-ny/"
+             },
+             {
+               "Text": "Cape Coral Homes for Sale",
+               "URL": "http://www2.movoto.com/cape-coral-fl/"
+             },
+             {
+               "Text": "Charlotte Homes for Sale",
+               "URL": "http://www2.movoto.com/charlotte-nc/"
+             },
+             {
+               "Text": "Chicago Homes for Sale",
+               "URL": "http://www2.movoto.com/chicago-il/"
+             },
+             {
+               "Text": "Cincinnati Homes for Sale",
+               "URL": "http://www2.movoto.com/cincinnati-oh/"
+             },
+             {
+               "Text": "Cleveland Homes for Sale",
+               "URL": "http://www2.movoto.com/cleveland-oh/"
+             },
+             {
+               "Text": "Dallas Homes for Sale",
+               "URL": "http://www2.movoto.com/for-sale/dallas-tx/"
+             },
+             {
+               "Text": "Dayton Homes for Sale",
+               "URL": "http://www2.movoto.com/dayton-oh/"
+             },
+             {
+               "Text": "Denver Homes for Sale",
+               "URL": "http://www2.movoto.com/for-sale/denver-co/"
+             },
+             {
+               "Text": "Detroit Homes for Sale",
+               "URL": "http://www2.movoto.com/detroit-mi/"
+             },
+             {
+               "Text": "Fort lauderdale Homes for Sale",
+               "URL": "http://www2.movoto.com/fort-lauderdale-fl/"
+             },
+             {
+               "Text": "Fort myers Homes for Sale",
+               "URL": "http://www2.movoto.com/fort-myers-fl/"
+             },
+             {
+               "Text": "Hollywood Homes for Sale",
+               "URL": "http://www2.movoto.com/hollywood-fl/"
+             },
+             {
+               "Text": "Houston Homes for Sale",
+               "URL": "http://www2.movoto.com/houston-tx/"
+             },
+             {
+               "Text": "Indianapolis Homes for Sale",
+               "URL": "http://www2.movoto.com/indianapolis-in/"
+             },
+             {
+               "Text": "Irvine Homes for Sale",
+               "URL": "http://www2.movoto.com/irvine-ca/"
+             },
+             {
+               "Text": "Jacksonville Homes for Sale",
+               "URL": "http://www2.movoto.com/jacksonville-fl/"
+             },
+             {
+               "Text": "Kissimmee Homes for Sale",
+               "URL": "http://www2.movoto.com/kissimmee-fl/"
+             },
+             {
+               "Text": "Knoxville Homes for Sale",
+               "URL": "http://www2.movoto.com/knoxville-tn/"
+             },
+             {
+               "Text": "Las Vegas Homes for Sale",
+               "URL": "http://www2.movoto.com/las-vegas-nv/"
+             },
+             {
+               "Text": "Los Angeles Homes for Sale",
+               "URL": "http://www2.movoto.com/los-angeles-ca/"
+             },
+             {
+               "Text": "Louisville Homes for Sale",
+               "URL": "http://www2.movoto.com/louisville-ky/"
+             },
+             {
+               "Text": "Manhattan Homes for Sale",
+               "URL": "http://www2.movoto.com/manhattan-ny/"
+             },
+             {
+               "Text": "Memphis Homes for Sale",
+               "URL": "http://www2.movoto.com/memphis-tn/"
+             },
+             {
+               "Text": "Miami Homes for Sale",
+               "URL": "http://www2.movoto.com/miami-fl/"
+             },
+             {
+               "Text": "Miami Beach Homes for Sale",
+               "URL": "http://www2.movoto.com/miami-beach-fl/"
+             },
+             {
+               "Text": "Milwaukee Homes for Sale",
+               "URL": "http://www2.movoto.com/milwaukee-wi/"
+             },
+             {
+               "Text": "Minneapolis Homes for Sale",
+               "URL": "http://www2.movoto.com/minneapolis-mn/"
+             },
+             {
+               "Text": "Myrtle Beach Homes for Sale",
+               "URL": "http://www2.movoto.com/myrtle-beach-sc/"
+             },
+             {
+               "Text": "Naples Homes for Sale",
+               "URL": "http://www2.movoto.com/naples-fl/"
+             },
+             {
+               "Text": "Nashville Homes for Sale",
+               "URL": "http://www2.movoto.com/nashville-tn/"
+             },
+             {
+               "Text": "North Miami Beach Homes for Sale",
+               "URL": "http://www2.movoto.com/north-miami-beach-fl/"
+             },
+             {
+               "Text": "Ocean City Homes for Sale",
+               "URL": "http://www2.movoto.com/ocean-city-nj/"
+             },
+             {
+               "Text": "Oklahoma City Homes for Sale",
+               "URL": "http://www2.movoto.com/oklahoma-city-ok/"
+             },
+             {
+               "Text": "Orlando Homes for Sale",
+               "URL": "http://www2.movoto.com/orlando-fl/"
+             },
+             {
+               "Text": "Palm Desert Homes for Sale",
+               "URL": "http://www2.movoto.com/palm-desert-ca/"
+             },
+             {
+               "Text": "Philadelphia Homes for Sale",
+               "URL": "http://www2.movoto.com/philadelphia-pa/"
+             },
+             {
+               "Text": "Phoenix Homes for Sale",
+               "URL": "http://www2.movoto.com/phoenix-az/"
+             },
+             {
+               "Text": "Pittsburgh Homes for Sale",
+               "URL": "http://www2.movoto.com/pittsburgh-pa/"
+             },
+             {
+               "Text": "Pompano Beach Homes for Sale",
+               "URL": "http://www2.movoto.com/pompano-beach-fl/"
+             },
+             {
+               "Text": "Portland Homes for Sale",
+               "URL": "http://www2.movoto.com/portland-or/"
+             },
+             {
+               "Text": "Queens Homes for Sale",
+               "URL": "http://www2.movoto.com/queens-ny/"
+             },
+             {
+               "Text": "Raleigh Homes for Sale",
+               "URL": "http://www2.movoto.com/raleigh-nc/"
+             },
+             {
+               "Text": "Saint Louis Homes for Sale",
+               "URL": "http://www2.movoto.com/saint-louis-mo/"
+             },
+             {
+               "Text": "Saint Paul Homes for Sale",
+               "URL": "http://www2.movoto.com/saint-paul-mn/"
+             },
+             {
+               "Text": "Saint Petersburg Homes for Sale",
+               "URL": "http://www2.movoto.com/saint-petersburg-fl/"
+             },
+             {
+               "Text": "San Antonio Homes for Sale",
+               "URL": "http://www2.movoto.com/san-antonio-tx/"
+             },
+             {
+               "Text": "San Diego Homes for Sale",
+               "URL": "http://www2.movoto.com/san-diego-ca/"
+             },
+             {
+               "Text": "San Francisco Homes for Sale",
+               "URL": "http://www2.movoto.com/san-francisco-ca/"
+             },
+             {
+               "Text": "San Jose Homes for Sale",
+               "URL": "http://www2.movoto.com/san-jose-ca/"
+             },
+             {
+               "Text": "Sarasota Homes for Sale",
+               "URL": "http://www2.movoto.com/sarasota-fl/"
+             },
+             {
+               "Text": "Scottsdale Homes for Sale",
+               "URL": "http://www2.movoto.com/scottsdale-az/"
+             },
+             {
+               "Text": "Seattle Homes for Sale",
+               "URL": "http://www2.movoto.com/seattle-wa/"
+             },
+             {
+               "Text": "Spring Homes for Sale",
+               "URL": "http://www2.movoto.com/spring-tx/"
+             },
+             {
+               "Text": "Tampa Homes for Sale",
+               "URL": "http://www2.movoto.com/tampa-fl/"
+             },
+             {
+               "Text": "Bronx Homes for Sale",
+               "URL": "http://www2.movoto.com/bronx-ny/"
+             },
+             {
+               "Text": "Tucson Homes for Sale",
+               "URL": "http://www2.movoto.com/tucson-az/"
+             },
+             {
+               "Text": "Virginia Beach Homes for Sale",
+               "URL": "http://www2.movoto.com/virginia-beach-va/"
+             },
+             {
+               "Text": "Washington Homes for Sale",
+               "URL": "http://www2.movoto.com/washington-dc/"
+             },
+             {
+               "Text": "West Palm Beach Homes for Sale",
+               "URL": "http://www2.movoto.com/west-palm-beach-fl/"
+             }
+           ],
+           "Title": "Popular Search Cities"
+         },
+         {
+           "ListedItems": [
+             {
+               "Text": "Single Family Homes",
+               "URL": "http://www2.movoto.com/sitemap/single-family/"
+             },
+             {
+               "Text": "Condo/Townhouse",
+               "URL": "http://www2.movoto.com/sitemap/condos/"
+             },
+             {
+               "Text": "Open Houses",
+               "URL": "http://www2.movoto.com/sitemap/open-houses/"
+             },
+             {
+               "Text": "Foreclosure/Short Sale",
+               "URL": "http://www2.movoto.com/sitemap/foreclosed/"
+             },
+             {
+               "Text": "Price Reduced Homes",
+               "URL": "http://www2.movoto.com/sitemap/reduced-30/"
+             },
+             {
+               "Text": "New Listings",
+               "URL": "http://www2.movoto.com/sitemap/new/"
+             }
+           ],
+           "Title": "Browse Real Estate by Property Type"
+         }
+       ]
+      }
+    ]
+  }
+}
